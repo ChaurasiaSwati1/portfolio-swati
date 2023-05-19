@@ -1,5 +1,6 @@
 import { Box, Container, Flex, Heading,Link, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import arrow from "../../assets/img/arrow.png";
 
 function Name() {
   return (
@@ -39,7 +40,7 @@ function Name() {
                 </Text>
               </Box>
               <Box>
-                <Image src="/assets/img/arrow.png" width="150px" />
+                <Image src={arrow} width="150px" />
               </Box>
               <Box
                 bg="rgba(39, 110, 148, .2)"

@@ -17,3 +17,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #032747;
 }
+.menu_bg{
+  background: rgba(0, 0, 0, .4) url('./assets/img/sidebar_bg.jpg');
+}
