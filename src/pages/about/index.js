@@ -1,0 +1,41 @@
+import {
+  Box,
+  Container,
+  Flex,
+  Heading,
+  Text,
+  Image,
+  SimpleGrid,
+  useColorModeValue,
+} from "@chakra-ui/react";
+import React from "react";
+
+import Name from '../../components/name/Name';
+import AboutContent from "../../components/aboutContent/AboutContent";
+
+function AboutIndexPage() {
+  return (
+    <>
+      <Box>
+        <Container maxW={"full"} py={"0"} px={7} m="0">
+          <SimpleGrid templateColumns={{ lg: "1fr 1fr" }} spacing={5} minH="100vh">
+            <Box>
+            <Name/>
+            <Text fontSize="24px" fontWeight="600" pb="5">
+              About Me..
+            </Text>
+              <AboutContent />
+            </Box>
+            
+            <Flex  pt="30" h="fit-content">
+              <Image src="/assets/img/about.png" top={"55px"} maxH={"505px"} position={"fixed"} maxW={"505px"}   objectFit="cover" height="auto" width="100%"/>
+            </Flex>
+          </SimpleGrid>
+        </Container>
+      </Box>
+    </>
+  );
+};
+
+
+export default AboutIndexPage;
