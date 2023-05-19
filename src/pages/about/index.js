@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 
+import about from "../../assets/img/about.png"
 import Name from '../../components/name/Name';
 import AboutContent from "../../components/aboutContent/AboutContent";
 
@@ -28,7 +29,7 @@ function AboutIndexPage() {
             </Box>
             
             <Flex  pt="30" h="fit-content">
-              <Image src="/assets/img/about.png" top={"55px"} maxH={"505px"} position={"fixed"} maxW={"505px"}   objectFit="cover" height="auto" width="100%"/>
+              <Image src={about} top={"55px"} maxH={"505px"} position={"fixed"} maxW={"505px"}   objectFit="cover" height="auto" width="100%"/>
             </Flex>
           </SimpleGrid>
         </Container>

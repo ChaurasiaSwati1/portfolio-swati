@@ -15,6 +15,7 @@ import HomeIndexPage from "./pages/home/index";
 import ExperienceIndexPage from "./pages/experience/index";
 import AboutIndexPage from "./pages/about/index";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import bg from ""
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
             xl: "1fr 4fr",
           }}
         >
-          <Box background="rgba(0, 0, 0, .4) url('/assets/img/sidebar_bg.jpg')"  minH={"100vh"}
+          <Box className="menu_bg"   minH={"100vh"}
           maxH={"100vh"} backgroundRepeat="no-repeat" backgroundBlendMode="darken" backgroundSize="cover" overflowY={"auto"}>
                 <Navbar/> 
             </Box>

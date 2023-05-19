@@ -12,6 +12,7 @@ import React from "react";
 
 import Name from '../../components/name/Name';
 import ExperienceContent from "../../components/experienceContent/ExperienceContent";
+import exp from '../../assets/img/work-experience-remove-bg.png';
 
 function ExperienceIndexPage() {
   return (
@@ -28,7 +29,7 @@ function ExperienceIndexPage() {
             </Box>
             
             <Flex pt="30" h="fit-content">
-              <Image src="/assets/img/work-experience-remove-bg.png" top={"55px"} maxH={"505px"} position={"fixed"} maxW={"505px"} objectFit="contain" height="auto" width="100%"/>
+              <Image src={exp} top={"55px"} maxH={"505px"} position={"fixed"} maxW={"505px"} objectFit="contain" height="auto" width="100%"/>
             </Flex>
           </SimpleGrid>
         </Container>

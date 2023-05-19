@@ -15,6 +15,7 @@ import {
   Link,
 } from "@chakra-ui/react";
 import React from "react";
+import profile from "../assets/img/profile.jpg"
 
 function MenuBar() {
   const menuItem = [
@@ -61,7 +62,7 @@ function MenuBar() {
                 }}
                 _active={{ color: "purple.700 !important" }}
               >
-                <Image src="/assets/img/profile.jpg" borderRadius={"50%"} height={"150px"} width={"150px"} objectFit={"cover"} mx="auto" mb="10"/>
+                <Image src={profile} borderRadius={"50%"} height={"150px"} width={"150px"} objectFit={"cover"} mx="auto" mb="10"/>
 
                 <Text fontSize={"24px"} fontWeight={"bold"}>Swati Chaurasia</Text>
                 <Text fontSize={"16px"} fontWeight={"bold"}>UI Developer</Text>
