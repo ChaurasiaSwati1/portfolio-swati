@@ -1,6 +1,5 @@
 {
-  "homepage": "https://ChaurasiaSwati1.github.io/portfolio-swati",
-  "name": "swati_chaurasia_portfolio",
+ "name": "swati_chaurasia_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,8 +18,6 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

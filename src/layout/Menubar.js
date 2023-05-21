@@ -23,6 +23,7 @@ function MenuBar() {
      //   icon: MdTrendingUp,
      title: "About",
      url: "/about",
+     
    },
    {
      //   icon: MdTrendingUp,
