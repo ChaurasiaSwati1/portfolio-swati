@@ -51,7 +51,6 @@ body, *, .chakra-heading{
 .gallery .image-gallery-slide .image-gallery-image {
   width: 100%;
   object-fit: cover;
-  margin-bottom: 10px;
 }
 .gallery .image-gallery-thumbnail.active, 
 .gallery .image-gallery-thumbnail:focus {

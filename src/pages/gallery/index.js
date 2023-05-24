@@ -17,7 +17,7 @@ function GalleryIndexPage() {
     <>
       <Box>
         <Container maxW={"full"} py={"0"} px={7} m="0">
-          <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5} minH="100vh">
+        <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5} minH="100vh">
             <Box>
             <Name/>
             <Text fontSize="16px" textAlign={"center"} fontWeight="600" pb="10">

@@ -31,8 +31,8 @@ function Crafting() {
   return (
 
     <>
-      <Box justifyContent="center" h="100%" className="gallery">
-          <ImageGallery items={images} showPlayButton={false}/>
+      <Box className="gallery">
+          <ImageGallery items={images}  showThumbnails={false} showPlayButton={false}/>
       </Box>
     </>
   );
