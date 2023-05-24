@@ -15,23 +15,23 @@ function BannerText() {
           <Box justifyContent="center" h="100%" minH="400px">
 
             
-            <Text fontSize="16px" fontWeight="600" fontStyle={"italic"} pb="5">
+            <Text fontSize="14px" fontWeight="600" fontStyle={"italic"} pb="5">
               HTML, CSS/SCSS, Bootstrap, Javascript/jquery, React.js since Oct
               20, 2021 to design interactive, user-centered and responsive
               website.
             </Text>
-            <Text fontSize="16px" fontWeight="600" fontStyle={"italic"} pb="5">
+            <Text fontSize="14px" fontWeight="600" fontStyle={"italic"} pb="5">
               Currently working on Realcube Project which is based on Properties
               and Facilities Management using React.Js, Chakra UI and Next.Js.
             </Text>
-            <Text fontSize="16px" fontWeight="600" fontStyle={"italic"} pb="5">
+            <Text fontSize="14px" fontWeight="600" fontStyle={"italic"} pb="5">
               Looking for better and challenging opportunity to advance my
               skills for technical and financial growth.
             </Text>
-            <Text fontSize="16px" fontWeight="600" fontStyle={"italic"} pb="5">
+            <Text fontSize="14px" fontWeight="600" fontStyle={"italic"} pb="5">
               A Hardworking and Passionate  UI Developer with strong organizational skills.
             </Text>
-            <Text fontSize="16px" fontWeight="600" fontStyle={"italic"} pb="5">
+            <Text fontSize="14px" fontWeight="600" fontStyle={"italic"} pb="5">
               Ready to support team to acheive their Success Goals.
             </Text>
           </Box>

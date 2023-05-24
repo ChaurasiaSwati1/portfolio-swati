@@ -5,32 +5,30 @@ import {
   Heading,
   Text,
   Image,
-  SimpleGrid,
-  useColorModeValue,
+  SimpleGrid
 } from "@chakra-ui/react";
 import React from "react";
-
-import about from "../../assets/img/about.png"
+import "react-image-gallery/styles/css/image-gallery.css";
 import Name from '../../components/name/Name';
-import AboutContent from "../../components/aboutContent/AboutContent";
+import GalleryContent from "../../components/gallery/GalleryContent";
 
-function AboutIndexPage() {
+function GalleryIndexPage() {
   return (
     <>
       <Box>
         <Container maxW={"full"} py={"0"} px={7} m="0">
-          <SimpleGrid templateColumns={{ lg: "1fr 1fr" }} spacing={5} minH="100vh">
+          <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5} minH="100vh">
             <Box>
             <Name/>
-            <Text fontSize="16px" fontWeight="600" pb="5">
-              About Me..
+            <Text fontSize="16px" textAlign={"center"} fontWeight="600" pb="10">
+              Personal Gallery
             </Text>
-              <AboutContent />
+              <GalleryContent />
             </Box>
             
-            <Flex  pt="30" h="fit-content">
+            {/* <Flex  pt="30" h="fit-content">
               <Image src={about} top={"55px"} maxH={"505px"} position={"fixed"} maxW={"505px"}   objectFit="cover" height="auto" width="100%"/>
-            </Flex>
+            </Flex> */}
           </SimpleGrid>
         </Container>
       </Box>
@@ -39,4 +37,4 @@ function AboutIndexPage() {
 };
 
 
-export default AboutIndexPage;
+export default GalleryIndexPage;

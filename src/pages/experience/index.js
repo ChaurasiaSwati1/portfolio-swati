@@ -22,7 +22,7 @@ function ExperienceIndexPage() {
           <SimpleGrid templateColumns={{ lg: "1fr 1fr" }} spacing={5} minH="100vh">
             <Box>
               <Name/>
-              <Text fontSize="24px" fontWeight="600" pb="5">
+              <Text fontSize="16px" fontWeight="600" pb="5">
                 Work Experience..
               </Text>
               <ExperienceContent />
