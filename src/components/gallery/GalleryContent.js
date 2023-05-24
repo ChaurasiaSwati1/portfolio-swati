@@ -27,7 +27,7 @@ function GalleryContent() {
     <>
       <Box w="100%">
         <Container maxW="full" px={0} color={"#032747"}>
-            <SimpleGrid columns={2} spacing={5}>
+            <SimpleGrid columns={{md: '2' , sm: '1'}} spacing={5}>
               <Box mb={"5"}>
               <Card className="shadow card">
               <CardHeader borderBottom="1px solid" borderBottomColor="gray.100">
