@@ -17,21 +17,22 @@ import BannerText from "../../components/bannerHome/bannerText";
 function HomeIndexPage() {
   return (
     <>
-      <Box>
-        <Container maxW={"full"} py={"0"} px={7} m="0">
-          <SimpleGrid templateColumns={{ lg: "1fr 1fr" }} spacing={5} minH="100vh">
-            <Box>
-              
-            
+      <Box w={"100%"}>
+        <Container maxW="container.xl" py={"0"} px={7}>
+          <Box>
              <Name/>
+             </Box>
+          <SimpleGrid templateColumns={{md:"2fr 3fr", lg: "1fr 1fr" }}  flexDirection={{md:"column-reverse"}} spacing={5} minH="100vh">
+          <Flex  pt="30" h="fit-content">
+              <Image src={laptop} top={"55px"}   maxH={{sm:"300px", md:"280px", lg:"320px", xl:"470px"}} maxW={{sm:"auto", md:"280px", lg:"320px", xl:"470px"}} objectFit="contain" height="auto" width="auto"/>
+            </Flex>
+            <Box>
             <Text fontSize="16px" fontWeight="600" pb="5">
               Working on..
             </Text>
               <BannerText />
             </Box>
-            <Flex  alignItems={"center"} h="100%">
-              <Image src={laptop} top={"100px"} maxH={"505px"} position={"fixed"} maxW={"505px"} objectFit="cover" height="auto" width="100%"/>
-            </Flex>
+            
           </SimpleGrid>
         </Container>
       </Box>

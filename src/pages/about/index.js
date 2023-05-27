@@ -17,20 +17,23 @@ import AboutContent from "../../components/aboutContent/AboutContent";
 function AboutIndexPage() {
   return (
     <>
-      <Box>
-        <Container maxW={"full"} py={"0"} px={7} m="0">
-          <SimpleGrid templateColumns={{ lg: "1fr 1fr" }} spacing={5} minH="100vh">
+      <Box w={"100%"}>
+        <Container maxW="container.xl" py={"0"} px={7}>
+        <Box>
+             <Name/>
+             </Box>
+          <SimpleGrid templateColumns={{md:"2fr 3fr", lg: "1fr 1fr" }}  flexDirection={{md:"column-reverse"}} spacing={5} minH="100vh">
+          <Flex  pt="30" h="fit-content">
+              <Image src={about} top={"55px"}  maxH={{sm:"300px", md:"280px", lg:"320px", xl:"470px"}} maxW={{sm:"auto", md:"280px", lg:"320px", xl:"470px"}} objectFit="contain" height="auto" width="auto"/>
+            </Flex>
             <Box>
-            <Name/>
             <Text fontSize="16px" fontWeight="600" pb="5">
-              About Me..
+              My Achievements..
             </Text>
               <AboutContent />
             </Box>
             
-            <Flex  pt="30" h="fit-content">
-              <Image src={about} top={"55px"} maxH={"505px"} position={"fixed"} maxW={"505px"}   objectFit="cover" height="auto" width="100%"/>
-            </Flex>
+            
           </SimpleGrid>
         </Container>
       </Box>

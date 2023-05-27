@@ -15,8 +15,8 @@ import GalleryContent from "../../components/gallery/GalleryContent";
 function GalleryIndexPage() {
   return (
     <>
-      <Box>
-        <Container maxW={"full"} py={"0"} px={7} m="0">
+      <Box w={"100%"}>
+        <Container maxW="container.xl" py={"0"} px={7}>
         <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5} minH="100vh">
             <Box>
             <Name/>
