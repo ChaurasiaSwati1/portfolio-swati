@@ -12,7 +12,7 @@ function BannerText() {
           px={0}
           color={"#032747"}
         >
-          <Box justifyContent="center" h="100%" minH="400px">
+          <Box justifyContent="center" h="100%" minH="300px">
 
             
             <Text fontSize="14px" fontWeight="600" fontStyle={"italic"} pb="5">

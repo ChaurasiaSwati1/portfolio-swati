@@ -136,10 +136,10 @@ function ExperienceContent() {
           </Box>
           <Box>
 
-            <Text fontSize="16px" fontWeight="600" pb="5">
+            <Text fontSize="14px" fontWeight="600" pb="5">
               Additional Experience..
             </Text>
-            <UnorderedList fontSize="12px" fontWeight="600" fontStyle={"italic"} pb="5">
+            <UnorderedList fontSize="12px" fontWeight="500" pb="5">
               <ListItem pb="2">
                 Also worked On SAP Fiori
               </ListItem>

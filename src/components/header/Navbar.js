@@ -8,8 +8,8 @@ function Navbar() {
  return (
    <>
      <Flex w="100%" borderRadius="8px">
-        <Container maxW="container.xl" h="100%" overflowY={"auto"}>
-           <Flex py="15px" justifyContent="space-between">
+        <Container maxW="container.xl" py={"0"} px={7}>
+           <Flex py="18px" justifyContent="space-between">
               <MenuBar/>
            </Flex>
            {/* <Flex>

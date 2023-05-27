@@ -21,14 +21,14 @@ function AboutContent() {
           <Box justifyContent="center" h="100%">
             <UnorderedList
               fontSize="14px"
-              fontWeight="600"
+              fontWeight="500"
 
             >
               <ListItem pb="5" fontSize="14px">
                 Technical Profile
                 
                 <Box 
-                  fontWeight="600" fontSize="14px" pb="2">
+                  fontWeight="500" fontSize="14px" pb="2">
                     Front End Skills
                   </Box>
                 <SimpleGrid
@@ -63,7 +63,7 @@ function AboutContent() {
 
                 </SimpleGrid>
                 <Box 
-                  fontWeight="600" fontSize="14px" pb="2">
+                  fontWeight="500" fontSize="14px" pb="2">
                     Scripting Languages
                   </Box>
                 <SimpleGrid
@@ -83,7 +83,7 @@ function AboutContent() {
 
                 </SimpleGrid>
                 <Box 
-                  fontWeight="600" fontSize="14px" pb="2">
+                  fontWeight="500" fontSize="14px" pb="2">
                     Additional Skills
                   </Box>
                 <SimpleGrid
@@ -108,7 +108,7 @@ function AboutContent() {
               <ListItem pb="5" fontSize="14px">
                 Education
                 <Flex pt={5}>
-                  <Text fontSize="14px" fontWeight="600" pb="5">
+                  <Text fontSize="14px" fontWeight="500" pb="5">
                     2018-07 - 2021-08
                   </Text>
                   <Box as="span" fontSize="14px" fontWeight="500" pt="1" px={4}>
@@ -116,7 +116,7 @@ function AboutContent() {
                   </Box>
 
                   <Box as="span" pl={4}>
-                    <Text fontSize="14px" fontWeight="600" pb="2">
+                    <Text fontSize="14px" fontWeight="500" pb="2">
                       Diploma In Computer Science And Engineering
                     </Text>
                     <Text fontSize="12px" pb="5" fontWeight="500">
@@ -125,7 +125,7 @@ function AboutContent() {
                   </Box>
                 </Flex>
                 <Flex pt={5}>
-                  <Text fontSize="14px" fontWeight="600" pb="5">
+                  <Text fontSize="14px" fontWeight="500" pb="5">
                     2016-04 - 2018-03
                   </Text>
                   <Box as="span" fontSize="14px" fontWeight="500" pt="1" px={4}>
@@ -133,7 +133,7 @@ function AboutContent() {
                   </Box>
 
                   <Box as="span" pl={4}>
-                    <Text fontSize="14px" fontWeight="600" pb="2">
+                    <Text fontSize="14px" fontWeight="500" pb="2">
                       Intermediate(PCM Group)
                     </Text>
                     <Text fontSize="12px" pb="5" fontWeight="500">

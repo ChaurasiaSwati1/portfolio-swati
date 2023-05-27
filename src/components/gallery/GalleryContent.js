@@ -29,48 +29,40 @@ function GalleryContent() {
         <Container maxW="full" px={0} color={"#032747"}>
             <SimpleGrid columns={{md: '2'}} spacing={5}>
               <Box mb={"5"}>
-                  <Card className="shadow card">
-                      <CardHeader borderBottom="1px solid" borderBottomColor="gray.100">
-                          <Text fontSize="14px" fontWeight="600" pb="0">
+                <Text fontSize="12px" fontWeight="500" pb="15px">
                               Some of my crafts...
                           </Text>
-                      </CardHeader>
+                          <Card className="shadow card">
                       <CardBody>
                           <Crafting />
                       </CardBody>
                   </Card>
               </Box>
               <Box mb={"5"}>
-                  <Card className="shadow card">
-                      <CardHeader borderBottom="1px solid" borderBottomColor="gray.100">
-                          <Text fontSize="14px" fontWeight="600" pb="0">
+              <Text fontSize="12px" fontWeight="500" pb="15px">
                               Some of my Poetries...
                           </Text>
-                      </CardHeader>
+                  <Card className="shadow card">
                       <CardBody>
                           <Poetries />
                       </CardBody>
                   </Card>
               </Box>
               <Box mb={"5"}>
-                  <Card className="shadow card">
-                      <CardHeader borderBottom="1px solid" borderBottomColor="gray.100">
-                          <Text fontSize="14px" fontWeight="600" pb="0">
+              <Text fontSize="12px" fontWeight="500" pb="15px">
                               Some of my Photography...
                           </Text>
-                      </CardHeader>
+                  <Card className="shadow card">
                       <CardBody>
                           <Photos />
                       </CardBody>
                   </Card>
               </Box>
               <Box mb={"5"}>
-                  <Card className="shadow card">
-                      <CardHeader borderBottom="1px solid" borderBottomColor="gray.100">
-                          <Text fontSize="14px" fontWeight="600" pb="0">
+              <Text fontSize="12px" fontWeight="500" pb="15px">
                               Some of my Paintings and Sketching...
                           </Text>
-                      </CardHeader>
+                  <Card className="shadow card">
                       <CardBody>
                           <Painting />
                       </CardBody>
