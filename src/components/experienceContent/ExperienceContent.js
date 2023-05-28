@@ -19,7 +19,7 @@ function ExperienceContent() {
       <Box w="100%">
         <Container maxW="full" overflowY={"auto"} px={0} color={"#032747"}>
           <Box justifyContent="center" h="100%" minH="400px">
-            <UnorderedList fontSize="12px" fontWeight="600">
+            <UnorderedList fontSize="1.75rem" fontWeight="600">
               <ListItem pb="5">
                 Developed application UIs via emerging front- end technologies
                 like HTML, CSS, Bootstrap, Javascript, Jquery, React JS, Chakra
@@ -86,42 +86,42 @@ function ExperienceContent() {
                   spacing={5}
                 >
                   <UnorderedList pt="5">
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       Edental
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       Realcube
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       Provis
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       Ecademia
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       Mall Management
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       POS - Point of Sale
                     </ListItem>
                   </UnorderedList>
                   <UnorderedList pt="5">
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       Engage
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       SCMAF
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       SmartFarm
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       E-Nursing
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       RCOAPM
                     </ListItem>
-                    <ListItem fontSize="12px" pb="2">
+                    <ListItem fontSize="1.75rem" pb="2">
                       My Villa
                     </ListItem>
                   </UnorderedList>
@@ -136,10 +136,10 @@ function ExperienceContent() {
           </Box>
           <Box>
 
-            <Text fontSize="14px" fontWeight="600" pb="5">
+            <Text fontSize="2rem" fontWeight="600" pb="5">
               Additional Experience..
             </Text>
-            <UnorderedList fontSize="12px" fontWeight="500" pb="5">
+            <UnorderedList fontSize="1.75rem" fontWeight="500" pb="5">
               <ListItem pb="2">
                 Also worked On SAP Fiori
               </ListItem>

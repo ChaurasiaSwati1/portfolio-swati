@@ -29,11 +29,12 @@ function App() {
             maxH={"90px"} backgroundSize="cover" overflow="hidden">
             <Flex className="menu_topbar" alignItems={"center"}><Navbar /> </Flex>
           </Box>
-          <Box className="content-bg" bg="rgb(247 244 244 / 10%)">
+          <Box className="content-bg">
+          
             <Box >
 
               <Routes>
-                <Route exact path="/" element={<HomeIndexPage />} />
+                <Route exact path='/' element={<HomeIndexPage />} />
                 <Route path='/about' element={<AboutIndexPage />} />
                 <Route path='/experience' element={<ExperienceIndexPage />} />
                 <Route path='/contact' element={<ContactIndexPage />} />

@@ -22,12 +22,12 @@ function ExperienceIndexPage() {
           <Box>
             <Name />
           </Box>
-          <SimpleGrid templateColumns={{ md: "2fr 3fr", lg: "1fr 1fr" }} flexDirection={{ md: "column-reverse" }} spacing={5} minH="100vh">
-            <Flex pt="30" h="fit-content">
-              <Image src={exp} top={"55px"} maxH={{ sm: "300px", md: "280px", lg: "320px", xl: "470px" }} maxW={{ sm: "auto", md: "280px", lg: "320px", xl: "470px" }} objectFit="contain" height="auto" width="auto" />
+          <SimpleGrid pb="30" templateColumns={{ md: "2fr 3fr", lg: "1fr 1fr" }} flexDirection={{ md: "column-reverse" }} spacing={5} minH="100vh">
+            <Flex  h="fit-content">
+              <Image className="hoverable" pt={{md:"30px"}}  mx={"auto"} src={exp} maxH={{ sm: "300px", md: "280px", lg: "320px", xl: "470px" }} maxW={{ sm: "auto", md: "280px", lg: "320px", xl: "470px" }} objectFit="contain" height="auto" width="auto" />
             </Flex>
             <Box>
-              <Text fontSize="16px" fontWeight="600" pb="5">
+              <Text fontSize="2.25rem" fontWeight="600" pb="5">
                 Work Experience..
               </Text>
               <ExperienceContent />

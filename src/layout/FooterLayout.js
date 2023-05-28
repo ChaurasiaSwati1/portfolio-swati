@@ -61,7 +61,7 @@ function FooterLayout() {
                   color="whiteAlpha.900"
 
                 >
-                  <Link href="" display={"flex"} _hover={{
+                  <Link href="" className="foot-link" display={"flex"} _hover={{
                       textDecoration: "none"
                     }}
                     _active={{
@@ -70,7 +70,7 @@ function FooterLayout() {
                       color: "#032747",
                       textDecoration: "none"
                     }}>
-                    <Icon as={item.pic} className="icon" fontSize="12px" mr="10px" />
+                    <Icon as={item.pic} className="icon foot-icon" fontSize="12px" mr="10px" />
                     <Text className="menu-txt" fontSize={"10px"}
                       fontWeight="400">{item.title}</Text>
                   </Link>

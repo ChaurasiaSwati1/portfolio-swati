@@ -47,11 +47,11 @@ function MenuBar() {
       title: "Work Experience",
       url: "/experience",
     },
-    {
-      pic: MdCall,
-      title: "Contact Me",
-      url: "/contact",
-    },
+    // {
+    //   pic: MdCall,
+    //   title: "Contact Me",
+    //   url: "/contact",
+    // },
     {
       pic: FaBlogger,
       title: "Blogs",
@@ -91,7 +91,7 @@ function MenuBar() {
                   >
                     <MenuItem key={index} py="2" className="list-item">
                       <Icon as={item.pic} _hover={{ color: '#f48a1b' }} fontSize="16px" mr="15px" />
-                      <Text fontSize={"12px"}
+                      <Text fontSize={"1.5rem"}
                         fontWeight="700">{item.title}</Text>
                     </MenuItem>
                   </Link>
@@ -143,7 +143,7 @@ function MenuBar() {
                       textDecoration: "none"
                     }}>
                     <Icon as={item.pic} className="icon" fontSize="16px" mr="10px" />
-                    <Text className="menu-txt" fontSize={"12px"}
+                    <Text className="menu-txt" fontSize={"1.5rem"}
                       fontWeight="700">{item.title}</Text>
                   </Link>
                 </ListItem>

@@ -26,10 +26,10 @@ function GalleryContent() {
 
     <>
       <Box w="100%">
-        <Container maxW="full" px={0} color={"#032747"}>
+        <Container maxW="full" px={0} pb="30px" color={"#032747"}>
             <SimpleGrid columns={{md: '2'}} spacing={5}>
               <Box mb={"5"}>
-                <Text fontSize="12px" fontWeight="500" pb="15px">
+                <Text fontSize="2rem" fontWeight="600" pb="15px">
                               Some of my crafts...
                           </Text>
                           <Card className="shadow card">
@@ -39,7 +39,7 @@ function GalleryContent() {
                   </Card>
               </Box>
               <Box mb={"5"}>
-              <Text fontSize="12px" fontWeight="500" pb="15px">
+              <Text fontSize="2rem" fontWeight="600" pb="15px">
                               Some of my Poetries...
                           </Text>
                   <Card className="shadow card">
@@ -49,7 +49,7 @@ function GalleryContent() {
                   </Card>
               </Box>
               <Box mb={"5"}>
-              <Text fontSize="12px" fontWeight="500" pb="15px">
+              <Text fontSize="2rem" fontWeight="600" pb="15px">
                               Some of my Photography...
                           </Text>
                   <Card className="shadow card">
@@ -59,7 +59,7 @@ function GalleryContent() {
                   </Card>
               </Box>
               <Box mb={"5"}>
-              <Text fontSize="12px" fontWeight="500" pb="15px">
+              <Text fontSize="2rem" fontWeight="600" pb="15px">
                               Some of my Paintings and Sketching...
                           </Text>
                   <Card className="shadow card">

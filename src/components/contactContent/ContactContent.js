@@ -20,14 +20,14 @@ function ContactContent() {
         <Container maxW="full" overflowY={"auto"} px={0} color={"#032747"}>
           <Box justifyContent="center" h="100%">
             <UnorderedList
-              fontSize="12px"
+              fontSize="1.5rem"
               fontWeight="600"
             >
-              <ListItem pb="5" fontSize="14px">
+              <ListItem pb="5" fontSize="2rem">
                 Technical Profile
                 
                 <Box 
-                  fontWeight="500" fontSize="12px" pb="2">
+                  fontWeight="500" fontSize="1.5rem" pb="2">
                     Front End Skills
                   </Box>
                 <SimpleGrid
@@ -38,31 +38,31 @@ function ContactContent() {
                 >
 
                     <UnorderedList pt="2">
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         HTML
                       </ListItem>
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         CSS/SCSS
                       </ListItem>
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Bootstrap
                       </ListItem>
                     </UnorderedList>
                     <UnorderedList pt="2">
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         React Js
                       </ListItem>
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Chakra UI
                       </ListItem>
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Tailwind CSS
                       </ListItem>
                     </UnorderedList>
 
                 </SimpleGrid>
                 <Box 
-                  fontWeight="500" fontSize="12px" pb="2">
+                  fontWeight="500" fontSize="1.5rem" pb="2">
                     Scripting Languages
                   </Box>
                 <SimpleGrid
@@ -72,17 +72,17 @@ function ContactContent() {
                 >
 
                     <UnorderedList pt="2">
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Javascript
                       </ListItem>
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Jquery
                       </ListItem>
                     </UnorderedList>
 
                 </SimpleGrid>
                 <Box 
-                  fontWeight="500" fontSize="12px" pb="2">
+                  fontWeight="500" fontSize="1.5rem" pb="2">
                     Additional Skills
                   </Box>
                 <SimpleGrid
@@ -91,13 +91,13 @@ function ContactContent() {
                 >
 
                     <UnorderedList pt="2">
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Git
                       </ListItem>
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Figma
                       </ListItem>
-                      <ListItem fontSize="12px" pb="2">
+                      <ListItem fontSize="1.5rem" pb="2">
                         Excel
                       </ListItem>
                     </UnorderedList>
@@ -107,35 +107,35 @@ function ContactContent() {
               <ListItem pb="5" fontSize="20px">
                 Education
                 <Flex pt={5}>
-                  <Text fontSize="14px" fontWeight="600" pb="5">
+                  <Text fontSize="2rem" fontWeight="600" pb="5">
                     2018-07 - 2021-08
                   </Text>
-                  <Box as="span" fontSize="14px" fontWeight="400" pt="1" px={4}>
+                  <Box as="span" fontSize="2rem" fontWeight="400" pt="1" px={4}>
                     <FaAngleDoubleRight />
                   </Box>
 
                   <Box as="span" pl={4}>
-                    <Text fontSize="14px" fontWeight="600" pb="2">
+                    <Text fontSize="2rem" fontWeight="600" pb="2">
                       Diploma In Computer Science And Engineering
                     </Text>
-                    <Text fontSize="12px" pb="5" fontWeight="500">
+                    <Text fontSize="1.5rem" pb="5" fontWeight="500">
                       Government Girls Polytechnic - Gorakhpur
                     </Text>
                   </Box>
                 </Flex>
                 <Flex pt={5}>
-                  <Text fontSize="14px" fontWeight="600" pb="5">
+                  <Text fontSize="2rem" fontWeight="600" pb="5">
                     2016-04 - 2018-03
                   </Text>
-                  <Box as="span" fontSize="14px" fontWeight="400" pt="1" px={4}>
+                  <Box as="span" fontSize="2rem" fontWeight="400" pt="1" px={4}>
                     <FaAngleDoubleRight />
                   </Box>
 
                   <Box as="span" pl={4}>
-                    <Text fontSize="14px" fontWeight="600" pb="2">
+                    <Text fontSize="2rem" fontWeight="600" pb="2">
                       Intermediate(PCM Group)
                     </Text>
-                    <Text fontSize="12px" pb="5" fontWeight="500">
+                    <Text fontSize="1.5rem" pb="5" fontWeight="500">
                       Delhi Public School - Ballia
                     </Text>
                   </Box>
