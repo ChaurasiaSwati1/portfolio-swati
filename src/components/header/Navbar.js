@@ -9,7 +9,7 @@ function Navbar() {
    <>
      <Flex w="100%" borderRadius="8px">
         <Container maxW="container.xl" py={"0"} px={7}>
-           <Flex py="18px" justifyContent="space-between">
+           <Flex py="10px" justifyContent="space-between">
               <MenuBar/>
            </Flex>
            {/* <Flex>

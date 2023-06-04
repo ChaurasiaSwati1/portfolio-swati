@@ -20,9 +20,9 @@ function GalleryIndexPage() {
         <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5} minH="100vh">
             <Box>
             <Name/>
-            <Text fontSize="2.25rem" textAlign={"center"} fontWeight="600" pb="10">
+            {/* <Text fontSize="2.25rem" textAlign={"center"} fontWeight="600" pb="10">
               Personal Gallery
-            </Text>
+            </Text> */}
               <GalleryContent />
             </Box>
             

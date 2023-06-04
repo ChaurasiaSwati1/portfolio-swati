@@ -1,61 +1,59 @@
 import {
-  Container,
-  VStack,
-  Flex,
-  Text,
-  Menu,
   Box,
-  Button,
+  Container,
+  Flex,
+  Icon,
+  IconButton,
   Image,
+  Link,
   List,
   ListItem,
-  ListIcon,
-  MenuItem,
-  Avatar, IconButton,
+  Menu,
   MenuButton,
+  MenuItem,
   MenuList,
-  Icon, Spacer,
-  Link,
+  Spacer,
+  Text
 } from "@chakra-ui/react";
-import { useLocation } from "react-router-dom";
-import React,  { useState, useEffect }  from "react";
-import profile from "../assets/img/profile.jpg"
-import { GiHamburgerMenu, GiNotebook } from "react-icons/gi";
+import React from "react";
 import { BsBriefcaseFill } from "react-icons/bs";
-import { IoMdContact } from "react-icons/io";
-import { MdCall } from "react-icons/md";
 import { FaBlogger } from "react-icons/fa";
+import { GiHamburgerMenu, GiNotebook } from "react-icons/gi";
+import { IoMdContact } from "react-icons/io";
+import { useLocation } from "react-router-dom";
+import profile from "../assets/img/profile.jpg";
 
 function MenuBar() {
   
-  const [active, setActive] = useState(null)
+  const location = useLocation();
+  const pathname =location.pathname.split("/")[1];
+
   const menuItem = [
     {
       pic: GiNotebook,
-      title: "Goals",
-      url: "/",
+      title: "Passion",
+      url: "/passion",
+      active: "passion",
 
     },
     {
       pic: IoMdContact,
-      title: "Achievements",
-      url: "/about",
+      title: "Skills",
+      url: "/skills",
+      active: "skills",
 
     },
     {
       pic: BsBriefcaseFill,
       title: "Work Experience",
       url: "/experience",
+      active: "experience",
     },
-    // {
-    //   pic: MdCall,
-    //   title: "Contact Me",
-    //   url: "/contact",
-    // },
     {
       pic: FaBlogger,
       title: "Blogs",
-      url: "/gallery",
+      url: "/blogs",
+      active: "blogs",
     },
   ];
 
@@ -65,10 +63,15 @@ function MenuBar() {
         <Container maxW="100%" p="0" >
           <Flex alignItems={"center"} display={{ sm: "flex", md: "none" }} className="mobile-nav">
 
-            <Box className="profile-icon">
+            {/* <Box className="profile-icon">
               <Link href="/">
-                <Image className="logo" src={profile} position={"relative"} zIndex={"5"} borderRadius={"50%"} height={"42px"} width={"42px"} objectFit={"cover"} mx="auto" />
+                <Image className="logo" src={profile} position={"relative"} zIndex={"5"} borderRadius={"50%"} height={"31px"} width={"31px"} objectFit={"cover"} mx="auto" />
                 <Box className="spin"></Box>
+              </Link>
+            </Box> */}
+            <Box className="hed_logo">
+              <Link href="/">
+                <Text as={"h2"} fontWeight={"600"} fontSize={"3.5rem"} color={"#ffffff"}  className="hed_name">SC</Text>
               </Link>
             </Box>
 
@@ -81,15 +84,18 @@ function MenuBar() {
                 as={IconButton}
                 aria-label='Options'
                 icon={<GiHamburgerMenu />}
+                height={"36px"}
+                w={"36px"}
                 variant='outline'
+                fontSize={"16px"}
                 className="menu-btn"
               />
               <MenuList p="15px" >
                 {menuItem.map((item, index) => (
                   <Link 
-                  onClick={() => setActive(item)} className={`list-group-item ${active == item && 'active'}`} href={item.url} _hover={{ textDecoration: "none" }}
+                   className="list-group-item" href={item.url} _hover={{ textDecoration: "none" }}
                   >
-                    <MenuItem key={index} py="2" className="list-item">
+                    <MenuItem key={index} py="2" className={`list-item ${pathname === item.active ? "active" : ''}`}>
                       <Icon as={item.pic} _hover={{ color: '#f48a1b' }} fontSize="16px" mr="15px" />
                       <Text fontSize={"1.5rem"}
                         fontWeight="700">{item.title}</Text>
@@ -105,9 +111,10 @@ function MenuBar() {
             className="nav-main"
             display={{ sm: "none", md: "flex" }}
             textAlign="left"
+            alignItems="center"
             justifyContent="space-between"
           >
-            <Box
+            {/* <Box
               fontWeight="500"
               alignItems="center"
               display="inline-flex"
@@ -117,10 +124,15 @@ function MenuBar() {
                 color="whiteAlpha.900"
                 cursor="pointer"
               >
-                <Image className="logo" src={profile} position={"relative"} zIndex={"5"} borderRadius={"50%"} height={"42px"} width={"42px"} objectFit={"cover"} mx="auto" />
+                <Image className="logo" src={profile} position={"relative"} zIndex={"5"} borderRadius={"50%"} height={"31px"} width={"31px"} objectFit={"cover"} mx="auto" />
                 <Box className="spin"></Box>
                 {/* <Text fontSize={"20px"} fontWeight={"bold"}>Swati Chaurasia</Text>
                 <Text fontSize={"14px"} fontWeight={"bold"}>UI Developer</Text> */}
+              {/*</Link>
+            </Box> */}
+            <Box className="hed_logo">
+              <Link href="/">
+                <Text as={"h2"} fontWeight={"600"} fontSize={"3.5rem"} color={"#ffffff"}  className="hed_name">SC</Text>
               </Link>
             </Box>
             <Spacer />
@@ -129,11 +141,12 @@ function MenuBar() {
                 <ListItem key={index}
                   py="8px"
                   borderRadius="2px"
+                  ml="3"
                   color="whiteAlpha.900"
 
                 >
                   <Link
-                    className="list-item" href={item.url} display={"flex"} p={"5px 12px"} ml={"5"} _hover={{
+                    className={`list-item ${pathname === item.active ? "active" : ''}`} href={item.url} display={"flex"} p={"5px 12px"} ml={"5"} _hover={{
                       textDecoration: "none"
                     }}
                     _active={{

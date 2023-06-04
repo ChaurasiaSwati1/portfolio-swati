@@ -1,30 +1,18 @@
 import {
   Container,
-  VStack,
   Flex,
-  Text,
-  SimpleGrid,
-  Menu,
-  Box,
-  Button,
-  Image,
+  Icon,
+  Link,
   List,
   ListItem,
-  ListIcon,
-  MenuItem,
-  Avatar, IconButton,
-  MenuButton,
-  MenuList,
-  Icon, Spacer,
-  Link,
+  SimpleGrid,
+  Text
 } from "@chakra-ui/react";
 import React from "react";
-import profile from "../assets/img/profile.jpg"
-import { GiHamburgerMenu, GiNotebook } from "react-icons/gi";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { IoMdContact } from "react-icons/io";
 import { MdCall } from "react-icons/md";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function FooterLayout() {
   const menuItem = [

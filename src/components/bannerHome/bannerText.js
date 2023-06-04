@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading,Link, Image, Text } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Link, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 
@@ -14,25 +14,27 @@ function BannerText() {
         >
           <Box justifyContent="center" h="100%" minH="200px">
 
-            
-            <Text fontSize="1.75rem" fontWeight="600" fontStyle={"italic"} pb="5">
-              HTML, CSS/SCSS, Bootstrap, Javascript/jquery, React.js since Oct
-              20, 2021 to design interactive, user-centered and responsive
-              website.
+
+            <Text fontSize="2rem" fontWeight="600" pb="5">
+              Passionate UI Developer with strong organizational skills, ready to
+              leverage my expertise in HTML, CSS/SCSS, Bootstrap, React Js, Chakra UI,
+              Tailwind CSS, Git, Figma, Excel, Scripting Languages, Javascript, Jquery
+              and other technologies to support teams to achieve their success goals.
             </Text>
-            <Text fontSize="1.75rem" fontWeight="600" fontStyle={"italic"} pb="5">
-              Currently working on Realcube Project which is based on Properties
-              and Facilities Management using React.Js, Chakra UI and Next.Js.
+            <Text fontSize="2rem" fontWeight="600" pb="5">
+              Experience in developing Interactive UI Screens, implementing functional Logics using HTML, CSS,
+              Javascript/Jquery.
             </Text>
-            <Text fontSize="1.75rem" fontWeight="600" fontStyle={"italic"} pb="5">
+
+            <Text fontSize="2rem" fontWeight="600" pb="5">
               Looking for better and challenging opportunity to advance my
               skills for technical and financial growth.
             </Text>
-            <Text fontSize="1.75rem" fontWeight="600" fontStyle={"italic"} pb="5">
+            <Text fontSize="2rem" fontWeight="600" pb="5">
               A Hardworking and Passionate  UI Developer with strong organizational skills.
             </Text>
-            <Text fontSize="1.75rem" fontWeight="600" fontStyle={"italic"} pb="5">
-              Ready to support team to acheive their Success Goals.
+            <Text fontSize="2rem" fontWeight="600" pb="5">
+              In my free time, I enjoy exploring new technologies and  Paintings.
             </Text>
           </Box>
         </Container>

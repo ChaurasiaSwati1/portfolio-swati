@@ -27,9 +27,9 @@ function ContactIndexPage() {
               <Image className="hoverable" mx={"auto"} src={about} top={"55px"}  maxH={{sm:"300px", md:"280px", lg:"320px", xl:"470px"}} maxW={{sm:"auto", md:"280px", lg:"320px", xl:"470px"}} objectFit="contain" height="auto" width="auto"/>
             </Flex>
             <Box>
-            <Text fontSize="2.25rem" fontWeight="600" pb="5">
+            {/* <Text fontSize="2.25rem" fontWeight="600" pb="5">
               Contact Me..
-            </Text>
+            </Text> */}
               <ContactContent />
             </Box>
             
