@@ -22,7 +22,7 @@ function ContactIndexPage() {
         <Box>
              <Name/>
              </Box>
-          <SimpleGrid templateColumns={{md:"2fr 3fr", lg: "1fr 1fr" }}  flexDirection={{md:"column-reverse"}} spacing={5} minH="100vh">
+          <SimpleGrid templateColumns={{md:"2fr 3fr", lg: "1fr 1fr" }}  flexDirection={{md:"column-reverse"}} spacing={5}>
           <Flex  py="30" h="fit-content">
               <Image className="hoverable" mx={"auto"} src={about} top={"55px"}  maxH={{sm:"300px", md:"280px", lg:"320px", xl:"470px"}} maxW={{sm:"auto", md:"280px", lg:"320px", xl:"470px"}} objectFit="contain" height="auto" width="auto"/>
             </Flex>

@@ -111,12 +111,12 @@ function AboutContent() {
             {cardItem.map((item, index) => (
               <Box key={"index"}>
                 <Card borderRadius={"8px"}
-                  direction={{ base: 'column', sm: 'row' }}
+                  direction={{sm: 'row' }}
                   overflow='hidden'
                   variant='outline'
                 >
                   <Box
-                    w={{ base: '100%', sm: '25%' }} p="16px" display={"inline-flex"} alignItems={"center"}>
+                    w={'25%'} p="16px" display={"inline-flex"} alignItems={"center"}>
                     <Link href={item.url} target="_blank">
                       <Image
                         objectFit='contain'
@@ -147,12 +147,12 @@ function AboutContent() {
           <SimpleGrid templateColumns={{ sm: "1fr", md: "1fr 1fr" }} spacingX="6" spacingY="10" mb="10">
             <Box>
               <Card borderRadius={"8px"}
-                direction={{ base: 'column', sm: 'row' }}
+                direction={{  sm: 'row' }}
                 overflow='hidden'
                 variant='outline'
               >
                 <Box
-                  w={{ base: '100%', sm: '30%' }} p="16px" display={"inline-flex"} alignItems={"center"}>
+                  w={{ sm: '30%' }} p="16px" display={"inline-flex"} alignItems={"center"}>
                   <Text fontSize="1.75rem" fontWeight="600">
                     2018-07 - 2021-08
                   </Text>
@@ -177,12 +177,12 @@ function AboutContent() {
 
             <Box>
               <Card borderRadius={"8px"}
-                direction={{ base: 'column', sm: 'row' }}
+                direction={{  sm: 'row' }}
                 overflow='hidden'
                 variant='outline'
               >
                 <Box
-                  w={{ base: '100%', sm: '30%' }} p="16px" display={"inline-flex"} alignItems={"center"}>
+                  w={{  sm: '30%' }} p="16px" display={"inline-flex"} alignItems={"center"}>
                   <Text fontSize="1.75rem" fontWeight="600">
                     2016-04 - 2018-03
                   </Text>

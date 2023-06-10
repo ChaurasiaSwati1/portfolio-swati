@@ -27,15 +27,15 @@ function PublicRouter() {
         <React.Fragment>
           <Box width={"100%"}>
             <Box>
-              <Box className="menu_bg" minH="60px"
-                maxH={"60px"} backgroundSize="cover" overflow="hidden">
+              <Box className="menu_bg" minH="64px"
+                maxH={"64px"} backgroundSize="cover" overflow="hidden">
                 <Flex className="menu_topbar" alignItems={"center"}>
                   <Navbar />
                 </Flex>
               </Box>
               <Box className="content-bg">
 
-                <Box >
+                <Box h={"calc(100vh - 154px)"} overflowY={"auto"}>
                   <Routes>
                     <Route exact path='/passion' element={<HomeIndexPage />} />
                     <Route path='/skills' element={<AboutIndexPage />} />

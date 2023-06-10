@@ -20,7 +20,7 @@ function HomeIndexPage() {
           <Box>
              <Name/>
              </Box>
-          <SimpleGrid pb="30" templateColumns={{md:"2fr 3fr", lg: "1fr 1fr" }}  alignItems={"center"} spacing={5} minH="60vh">
+          <SimpleGrid pb="30" templateColumns={{md:"2fr 3fr", lg: "1fr 1fr" }}  alignItems={"center"} spacing={5}>
           <Flex  h="fit-content">
               <Image className="hoverable" src={laptop} mx={"auto"} top={"55px"}   maxH={{sm:"300px", md:"280px", lg:"320px", xl:"470px"}} maxW={{sm:"auto", md:"280px", lg:"320px", xl:"470px"}} objectFit="contain" height="auto" width="auto"/>
             </Flex>

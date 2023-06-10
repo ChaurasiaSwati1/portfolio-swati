@@ -10,17 +10,17 @@ import LandingContent from "../components/landingContent/LandingContent";
   
   function Landing() {
     return (
-        <Box width={"100%"} h={"100vh"} backgroundSize={"cover"} className="land_bg" py="30px" px={7} overflow={"hidden"}>
-          <SimpleGrid p={{sm:"30px", md:"40px", lg:"50px"}} templateColumns={{sm:"1fr", md:"3fr 2fr", lg:"1fr 1fr"}}  alignItems={"center"} spacing={5} h="100%">
+        <Flex alignItems={"center"} width={"100%"} h={"100vh"} backgroundSize={"cover"} className="land_bg" py="30px" px={7} overflow={"hidden"}>
+          <SimpleGrid p={{sm:"30px", md:"40px", lg:"50px"}} w="100%" templateColumns={{sm:"1fr", md:"3fr 2fr", lg:"1fr 1fr"}}  alignItems={"center"} spacing={5} h={{base:"auto", md:"auto", lg:"100vh"}}>
             <Box>
               <LandingContent />
             </Box>
-            <Flex  h="fit-content" justifyContent={"flex-end"} display={{sm:"none", md:"inline-block"}}>
-              <Image src={bg} display={{md:"none", lg:"inline-block"}} zIndex={"1"} maxH={{md:"60rem", lg:"100rem"}} position={{md:"initial",lg:"absolute"}} right={"10rem"}  top={"-5rem"}  objectFit="contain" height="auto" width="auto"/>
-              <Image src={profile} zIndex={"5"} maxH={{md:"50rem", lg:"100rem"}} position={{sm:"initial",md:"absolute"}}  bottom={"0"}  objectFit="contain" height="auto" width="auto"/>
+            <Flex position={"relative"} justifyContent={"flex-end"} display={{base:"none",sm:"none", md:"inline-block"}} h={"100%"}>
+              <Image src={bg} display={{md:"none", lg:"inline-block"}} zIndex={"1"} maxH={{md:"60rem", lg:"100rem"}} position={{md:"initial",lg:"absolute"}} right={"50px"}  top={"-100px"}  objectFit="contain" height="auto" width="auto"/>
+              <Image src={profile} zIndex={"5"} maxH={{md:"50rem", lg:"100rem"}} position={{sm:"initial",md:"absolute"}} right={"0"}  bottom={{md:"-40px",lg:"-50px"}}  objectFit="contain" height="auto" width="auto"/>
             </Flex>
           </SimpleGrid>
-        </Box>
+        </Flex>
     );
   }
   

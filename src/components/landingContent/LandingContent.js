@@ -5,7 +5,7 @@ import {
     Text
 } from "@chakra-ui/react";
 import React from "react";
-// import resume from ""
+import rc from "../../assets/doc/swati-resume.pdf";
 function LandingContent() {
     return (
         <>
@@ -23,7 +23,7 @@ function LandingContent() {
                     <Link target="_blank" href="https://www.exalogic.co/" cursor={"pointer"}>Exalogic Consulting</Link>
                 </Text>
                 <Flex justifyContent="">
-                    <Text fontSize="1.5rem" p="8px 16px" borderRadius="4px" background="#ffffff" color="#032747" _hover={{background:"#032747", color:"#ffffff"}}> <Link fontWeight={600} _hover={{ textDecoration: "none" }} href="../../assets/doc/swati-resume" download="swati-resume.pdf">Download CV</Link></Text>
+                    <Text fontSize="1.5rem" p="8px 16px" borderRadius="4px" background="#ffffff" color="#032747" _hover={{background:"#032747", color:"#ffffff"}}> <Link fontWeight={600} _hover={{ textDecoration: "none" }} href={rc} download="swati-resume.pdf">Download CV</Link></Text>
                     <Text fontSize="1.5rem" ml="15px" p="8px 16px" borderRadius="4px" background="#ffffff" color="#032747" _hover={{background:"#032747", color:"#ffffff"}}> <Link fontWeight={600} _hover={{ textDecoration: "none" }} href="/passion">Go..</Link></Text>
                 </Flex>
             </Box>
