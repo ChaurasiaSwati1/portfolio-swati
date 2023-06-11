@@ -23,7 +23,7 @@ function LandingContent() {
         >
           I'm &nbsp;
           <Link
-            href="/passion"
+            href="/blogs"
             cursor={"pointer"}
             color={"#032747"}
             fontWeight="700"

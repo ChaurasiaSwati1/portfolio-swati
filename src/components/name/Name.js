@@ -21,7 +21,7 @@ function Name() {
               <Heading as="h1" fontSize="32px" fontWeight="600" mb="5">
                 <Box className="animate one">
                   <Box as="span">S</Box><Box as="span">w</Box><Box as="span">a</Box><Box as="span">t</Box><Box as="span">i</Box> &nbsp;
-                  <Box as="span">C</Box><Box as="span">h</Box><Box as="span">u</Box><Box as="span">r</Box><Box as="span">a</Box><Box as="span">s</Box><Box as="span">i</Box><Box as="span">a</Box>
+                  <Box as="span">C</Box><Box as="span">h</Box><Box as="span">a</Box><Box as="span">u</Box><Box as="span">r</Box><Box as="span">a</Box><Box as="span">s</Box><Box as="span">i</Box><Box as="span">a</Box>
                 </Box>
                 {/* Swati Chaurasia */}
               </Heading>

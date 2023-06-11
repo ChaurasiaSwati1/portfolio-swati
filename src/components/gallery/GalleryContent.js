@@ -27,7 +27,7 @@ function GalleryContent() {
     <>
       <Box w="100%">
         <Container maxW="full" px={0} pb="30px" color={"#032747"}>
-            <SimpleGrid columns={{md: '2'}} spacing={5}>
+            <SimpleGrid columns={{md: '2'}} spacing={8}>
               <Box mb={"5"}>
                 <Text fontSize="2rem" fontWeight="600" pb="15px">
                               Some of my crafts...
