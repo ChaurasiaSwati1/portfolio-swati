@@ -37,11 +37,11 @@ function PublicRouter() {
 
                 <Box h={"calc(100vh - 154px)"} overflowY={"auto"}>
                   <Routes>
-                    <Route exact path='/passion' element={<HomeIndexPage />} />
+                    <Route exact path='/blogs' element={<HomeIndexPage />} />
                     <Route path='/skills' element={<AboutIndexPage />} />
                     <Route path='/experience' element={<ExperienceIndexPage />} />
                     <Route path='/contact' element={<ContactIndexPage />} />
-                    <Route path='/blogs' element={<GalleryIndexPage />} />
+                    <Route path='/blogsGallery' element={<GalleryIndexPage />} />
                   </Routes>
                 </Box>
               </Box>

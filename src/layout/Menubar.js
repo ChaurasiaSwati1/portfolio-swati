@@ -31,9 +31,9 @@ function MenuBar() {
   const menuItem = [
     {
       pic: GiNotebook,
-      title: "Passion",
-      url: "/passion",
-      active: "passion",
+      title: "Blogs",
+      url: "/blogs",
+      active: "blogs",
 
     },
     {
@@ -51,9 +51,9 @@ function MenuBar() {
     },
     {
       pic: FaBlogger,
-      title: "Blogs",
-      url: "/blogs",
-      active: "blogs",
+      title: "Blogs Gallery",
+      url: "/blogsGallery",
+      active: "blogsGallery",
     },
   ];
 
