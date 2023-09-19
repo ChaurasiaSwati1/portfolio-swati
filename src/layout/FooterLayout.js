@@ -2,11 +2,11 @@ import {
   Container,
   Flex,
   Icon,
-  Link,
+  Box,
   List,
   ListItem,
   SimpleGrid,
-  Text
+  Link
 } from "@chakra-ui/react";
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,20 +19,23 @@ function FooterLayout() {
     {
       pic: FaLinkedinIn,
       title: "https://www.linkedin.com/in/swati-chaurasia-7a8a26220/",
-
+      link: "https://www.linkedin.com/in/swati-chaurasia-7a8a26220",
     },
     {
       pic: FiMail,
       title: "Swatichaurasia9445@gmail.com",
+      link: "mailto:Swatichaurasia9445@gmail.com",
 
     },
     {
       pic: MdCall,
       title: "9170839445",
+      link: "",
     },
     {
       pic: IoMdContact,
       title: "Swati Chaurasia",
+      link: "/",
     },
   ];
 
@@ -49,7 +52,7 @@ function FooterLayout() {
                   color="whiteAlpha.900"
 
                 >
-                  <Link href="" className="foot-link" display={"flex"} _hover={{
+                  <Link href={item.link} target="_blank" className="foot-link" display={"flex"} alignItems={"center"} _hover={{
                       textDecoration: "none"
                     }}
                     _active={{
@@ -58,9 +61,9 @@ function FooterLayout() {
                       color: "#032747",
                       textDecoration: "none"
                     }}>
-                    <Icon as={item.pic} className="icon foot-icon" fontSize="12px" mr="10px" />
-                    <Text className="menu-txt" fontSize={"10px"}
-                      fontWeight="400">{item.title}</Text>
+                    <Icon as={item.pic} className="icon foot-icon"  fontSize="12px" mr="10px" />
+                    <Box as="span" className="menu-txt" fontSize={"10px"}
+                      fontWeight="400">{item.title}</Box>
                   </Link>
                 </ListItem>
 

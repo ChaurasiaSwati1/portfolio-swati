@@ -49,11 +49,11 @@ body,
   filter: invert(1);
   object-fit: contain;
 }
-.content-bg {
+/* .content-bg {
   background: rgba(255, 255, 255, 0.8) url('./assets/img/background.gif');
   background-size: 100% 100%;
   background-blend-mode: lighten;
-}
+} */
 .menu_bg,
 .footer-main {
   background: var(--primary);
