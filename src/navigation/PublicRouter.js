@@ -6,12 +6,12 @@ import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "../components/header/Navbar";
 import FooterLayout from "../layout/FooterLayout";
-import Landing from "../layout/Landing";
 import AboutIndexPage from "../pages/about/index";
 import ContactIndexPage from "../pages/contact/index";
 import ExperienceIndexPage from "../pages/experience/index";
 import GalleryIndexPage from "../pages/gallery/index";
 import HomeIndexPage from "../pages/home/index";
+import Landing from "../pages/landing";
 // import bg from ""
 
 function PublicRouter() {
@@ -19,11 +19,11 @@ function PublicRouter() {
 
   return (
     <>
-      {(location.pathname === '/') ? (
+      {/* {(location.pathname === '/') ? (
         <Routes>
           <Route path='/' element={<Landing />} />
         </Routes>
-      ) : (
+      ) : ( */}
         <React.Fragment>
           <Box width={"100%"}>
             <Box>
@@ -35,8 +35,9 @@ function PublicRouter() {
               </Box>
               <Box className="content-bg">
 
-                <Box h={"calc(100vh - 154px)"} overflowY={"auto"}>
+                <Box>
                   <Routes>
+                    <Route path='/' element={<Landing />} />
                     <Route exact path='/blogs' element={<HomeIndexPage />} />
                     <Route path='/skills' element={<AboutIndexPage />} />
                     <Route path='/experience' element={<ExperienceIndexPage />} />
@@ -54,7 +55,7 @@ function PublicRouter() {
           </Box>
 
         </React.Fragment>
-      )}
+      {/* )} */}
     </>
   );
 }

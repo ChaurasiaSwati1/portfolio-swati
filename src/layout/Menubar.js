@@ -16,6 +16,7 @@ import {
   Text
 } from "@chakra-ui/react";
 import React from "react";
+import rc from "../assets/doc/swati-resume.pdf";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { FaBlogger } from "react-icons/fa";
 import { GiHamburgerMenu, GiNotebook } from "react-icons/gi";
@@ -30,28 +31,28 @@ function MenuBar() {
 
   const menuItem = [
     {
-      pic: GiNotebook,
+      // pic: IoMdContact,
+      title: "About",
+      url: "/skills",
+      active: "skills",
+
+    },
+    {
+      // pic: GiNotebook,
       title: "Blogs",
       url: "/blogs",
       active: "blogs",
 
     },
     {
-      pic: IoMdContact,
-      title: "Skills",
-      url: "/skills",
-      active: "skills",
-
-    },
-    {
-      pic: BsBriefcaseFill,
+      // pic: BsBriefcaseFill,
       title: "Work Experience",
       url: "/experience",
       active: "experience",
     },
     {
-      pic: FaBlogger,
-      title: "Blogs Gallery",
+      // pic: FaBlogger,
+      title: "Gallery",
       url: "/blogsGallery",
       active: "blogsGallery",
     },
@@ -71,7 +72,7 @@ function MenuBar() {
             </Box> */}
             <Box className="hed_logo">
               <Link href="/">
-                <Text as={"h2"} fontWeight={"600"} fontSize={"3.5rem"} color={"#ffffff"}  className="hed_name">SC</Text>
+                <Text as={"h2"} fontWeight={"600"} fontSize={"3.5rem"} color={"#032747"}  className="hed_name">SC</Text>
               </Link>
             </Box>
 
@@ -96,7 +97,7 @@ function MenuBar() {
                    className="list-group-item" href={item.url} _hover={{ textDecoration: "none" }}
                   >
                     <MenuItem key={index} py="2" className={`list-item ${pathname === item.active ? "active" : ''}`}>
-                      <Icon as={item.pic} _hover={{ color: '#f48a1b' }} fontSize="16px" mr="15px" />
+                      {/* <Icon as={item.pic} _hover={{ color: '#f48a1b' }} fontSize="16px" mr="15px" /> */}
                       <Text fontSize={"1.5rem"}
                         fontWeight="700">{item.title}</Text>
                     </MenuItem>
@@ -105,7 +106,25 @@ function MenuBar() {
                 ))}
               </MenuList>
             </Menu>
-
+            <Link
+            fontWeight={600}
+            _hover={{ textDecoration: "none" }}
+            href={rc}
+            download="swati-resume.pdf"
+          >
+            <Text
+              fontSize="1.5rem"
+              p="6px 15px"
+              borderRadius="4px"
+              border="1px solid #f12c2c"
+              background="#ffffff"
+              color="#f12c2c"
+              _hover={{ background: "#f12c2c", color: "#ffffff" }}
+            >
+              {" "}
+              Download CV
+            </Text>
+          </Link>
           </Flex>
           <Flex
             className="nav-main"
@@ -132,7 +151,7 @@ function MenuBar() {
             </Box> */}
             <Box className="hed_logo">
               <Link href="/">
-                <Text as={"h2"} fontWeight={"600"} fontSize={"3.5rem"} color={"#ffffff"}  className="hed_name">SC</Text>
+                <Text as={"h2"} fontWeight={"600"} fontSize={"3.5rem"} color={"#032747"}  className="hed_name">SC</Text>
               </Link>
             </Box>
             <Spacer />
@@ -142,7 +161,7 @@ function MenuBar() {
                   py="8px"
                   borderRadius="2px"
                   ml="3"
-                  color="whiteAlpha.900"
+                  color="#032747"
 
                 >
                   <Link
@@ -150,18 +169,38 @@ function MenuBar() {
                       textDecoration: "none"
                     }}
                     _active={{
-                      background: "#ffffff",
+                      background: "#032747",
                       borderRadius: "5px",
-                      color: "#032747",
+                      color: "#ffffff",
                       textDecoration: "none"
                     }}>
-                    <Icon as={item.pic} className="icon" fontSize="16px" mr="10px" />
+                    {/* <Icon as={item.pic} className="icon" fontSize="16px" mr="10px" /> */}
                     <Text className="menu-txt" fontSize={"1.5rem"}
                       fontWeight="700">{item.title}</Text>
                   </Link>
                 </ListItem>
               ))}
             </List>
+            <Link
+            fontWeight={600}
+            _hover={{ textDecoration: "none" }}
+            href={rc}
+            download="swati-resume.pdf"
+            ml={"15px"}
+          >
+            <Text
+              fontSize="1.5rem"
+              p="6px 15px"
+              borderRadius="4px"
+              border="1px solid #f12c2c"
+              background="#ffffff"
+              color="#f12c2c"
+              _hover={{ background: "#f12c2c", color: "#ffffff" }}
+            >
+              {" "}
+              Download CV
+            </Text>
+          </Link>
           </Flex>
         </Container>
       </Flex>

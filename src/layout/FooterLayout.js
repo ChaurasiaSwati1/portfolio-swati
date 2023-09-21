@@ -49,7 +49,7 @@ function FooterLayout() {
                 <ListItem key={index}
                   py="8px"
                   borderRadius="2px"
-                  color="whiteAlpha.900"
+                  color="black"
 
                 >
                   <Link href={item.link} target="_blank" className="foot-link" display={"flex"} alignItems={"center"} _hover={{

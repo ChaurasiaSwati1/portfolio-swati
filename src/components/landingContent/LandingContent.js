@@ -60,7 +60,7 @@ function LandingContent() {
           </Link>
         </Text>
         <Flex justifyContent="">
-            <Link
+            {/* <Link
               fontWeight={600}
               _hover={{ textDecoration: "none" }}
               href={rc}
@@ -77,23 +77,23 @@ function LandingContent() {
             {" "}
               Download CV
           </Text>
-            </Link>
+            </Link> */}
           <Link
             fontWeight={600}
             _hover={{ textDecoration: "none" }}
-            href="/blogs"
+            href="/experience"
           >
           <Text
             fontSize="1.5rem"
-            ml="15px"
+            // ml="15px"
             p="8px 16px"
             borderRadius="4px"
-            background="#ffffff"
-            color="#032747"
-            _hover={{ background: "#032747", color: "#ffffff" }}
+            background="#f12c2c"
+            color="#ffffff"
+            _hover={{ padding: "7px 15px", background: "#ffffff", color: "#f12c2c", border: "1px solid #f12c2c" }}
           >
             {" "}
-              Go..
+              Browse Projects
           </Text>
             </Link>
         </Flex>
