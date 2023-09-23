@@ -16,10 +16,14 @@ function GalleryIndexPage() {
   return (
     <>
       <Box w={"100%"}>
+      <Container maxW="100%" py={"0"} px={0}>
+          <Box>
+            <Name />
+          </Box>
+          </Container>
         <Container maxW="container.xl" py={"0"} px={7}>
-        <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5}>
+          <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5}>
             <Box>
-            <Name/>
             {/* <Text fontSize="2.25rem" textAlign={"center"} fontWeight="600" pb="10">
               Personal Gallery
             </Text> */}

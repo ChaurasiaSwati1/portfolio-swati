@@ -103,18 +103,25 @@ background: linear-gradient(48deg, rgba(252,203,248,1) 27%, rgba(250,170,198,1) 
 .land_heading::before {
   content: attr(data-text);
   position: absolute;
-  top: 0;
+  top: -6px;
   left: 0;
   width: 100%;
   height: 100%;
-  color: #02f871;
+  color: #f12c2c;
   -webkit-text-stroke: 0vw var(--primary);
-  border-right: 2px solid #02f871;
+  border-right: 2px solid #f12c2c;
   overflow: hidden;
   animation: animate 5s linear infinite;
 
 }
-
+.footer_list:first-child{
+  margin-left: 0;
+  padding-left: 0;
+}
+.footer_list{
+  margin-right: 15px;
+  padding-left: 12px;
+}
 @keyframes animate {
 
   0%,
@@ -189,6 +196,34 @@ img.hoverable:hover,
   float: right;
   shape-outside: url("./assets/img/internship.jpg");
 }
+.skill_s{
+  background-color: #f2f5f7;
+  border-radius: 4px;
+  padding: 15px;
+  max-width: 180px;
+  min-width: 150px;
+  max-height: 220px;
+}
+.skill_img{
+  padding: 30px 0 30px 0;
+  max-width: 180px;
+}
+.skill_img img{
+  max-height: 200px;
+}
+.skill_s h4{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.skill_s p{
+  font-size: 1.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: #918C8C;
+  margin-bottom: 8px;
+}
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -203,7 +238,18 @@ img.hoverable:hover,
   animation: Angle .5s linear infinite;
   -webkit-animation: Angle .5s ease-in-out infinite;
 }
-
+.home_card {
+  background-color: #ffffff !important;
+  border: 0 !important;
+  box-shadow: 0 2px 4px 2px #d5d5d5 !important;
+  padding: 0;
+}
+.home_card:hover {
+  background: #ffffff !important;
+  transform: scale(1.02);
+  transition: all 2s;
+  box-shadow: 0 2px 12px 2px #d5d5d5 !important;
+}
 @keyframes Angle {
   0% {
     transform: rotate(0deg);
@@ -447,7 +493,7 @@ img.hoverable:hover,
 
 @media only screen and (max-width: 1199.98px) {
   .land-left  .txt{
-    font-size: 4.4rem;
+    font-size: 3.4rem;
   }
 }
 @media only screen and (max-width: 991.98px) {
@@ -458,7 +504,9 @@ img.hoverable:hover,
   .mobile-nav {
     display: flex;
   }
-
+  .land_heading::before {
+    top: 0;
+  }
   .mobile-nav .css-r6z5ec {
     position: fixed !important;
     transform: none !important;
@@ -481,6 +529,18 @@ img.hoverable:hover,
     color: #ffffff;
     background: var(--primary);
     border-radius: 4px;
+  }
+  
+  .land-left  .txt{
+    font-size: 3rem;
+  }
+  .skill_s{
+    background-color: #f2f5f7;
+    border-radius: 4px;
+    padding: 15px;
+    max-width: 150px;
+    min-width: 130px;
+    max-height: 220px;
   }
 }
 

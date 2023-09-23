@@ -7,10 +7,8 @@ import arrow from "../../assets/img/arrow.png";
 function Name() {
   return (
     <>
-      <Container
-        maxW="full"
+      <Container maxW="container.xl" py={"0"} px={7}
         overflowY={"auto"}
-        px={0}
         color={"#032747"}
       >
         <Box className="banner" backgroundBlendMode={"darken"} backgroundSize={"cover"} p={{ sm: "25px", md: "35px" }} mb="30px">

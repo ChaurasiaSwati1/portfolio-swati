@@ -9,7 +9,7 @@ function LandingContent() {
           as="h3"
           color={"#032747"}
           fontWeight="700"
-          fontSize="5.5rem"
+          fontSize="4rem"
           className="txt"
         >
           Hey..{" "}
@@ -18,7 +18,7 @@ function LandingContent() {
           as="h1"
           color={"#032747"}
           fontWeight="700"
-          fontSize="5.5rem"
+          fontSize="4rem"
           className="txt"
         >
           I'm &nbsp;
@@ -38,7 +38,7 @@ function LandingContent() {
           color={"#032747"}
           fontWeight="700"
           className="txt"
-          fontSize="5.5rem"
+          fontSize="4rem"
         >
           Associate UI Developer
         </Text>
@@ -49,7 +49,7 @@ function LandingContent() {
           color={"#032747"}
           fontWeight="700"
           className="txt"
-          fontSize="5.5rem"
+          fontSize="4rem"
         >
           <Link
             target="_blank"
@@ -81,7 +81,7 @@ function LandingContent() {
           <Link
             fontWeight={600}
             _hover={{ textDecoration: "none" }}
-            href="/experience"
+            href="/blogs"
           >
           <Text
             fontSize="1.5rem"

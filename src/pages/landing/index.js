@@ -8,13 +8,17 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import LandingBanner from "../../layout/LandingBanner";
-import LandingSkills from "../../layout/LandingSkills";
+import Commitment from "../../components/commitment/Commitment";
+import AboutCard from "../../components/aboutCard/aboutCard";
+import LandingSkill from "../../layout/LandingSkill";
 
 function Landing() {
   return (
     <>
       <LandingBanner/>
-      <LandingSkills/>
+      <LandingSkill/>
+      <Commitment/>
+      <AboutCard/>
     </>
   );
 }

@@ -18,10 +18,12 @@ function ExperienceIndexPage() {
   return (
     <>
       <Box w={"100%"}>
-        <Container maxW="container.xl" py={"0"} px={7}>
+      <Container maxW="100%" py={"0"} px={0}>
           <Box>
             <Name />
           </Box>
+          </Container>
+        <Container maxW="100%" py={"0"} px={0}>
           <Box>
               {/* <Text fontSize="2.25rem" fontWeight="600" pb="5">
                 Work Experience..

@@ -1,16 +1,14 @@
 import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import React from "react";
-import rc from "../../assets/doc/swati-resume.pdf";
-function LandingSkillsContent() {
+function LandingSkillsContents() {
   return (
     <>
-      <Box className="land-left">
+      <Flex className="land-left" justifyContent={"center"} alignContent={"center"} flexDirection={"column"}>
         <Text
           as="h6"
           color={"#f77272"}
           fontWeight="600"
-          fontSize="2rem"
-          className="txt"
+          fontSize="1.75rem"
           mb={"10px"}
         >
           Skills I have..
@@ -19,8 +17,7 @@ function LandingSkillsContent() {
           as="h3"
           color={"#032747"}
           fontWeight="600"
-          fontSize="4.2rem"
-          className="txt"
+          fontSize="3.2rem"
         >
           Associate UI Developer
         </Text>
@@ -28,8 +25,7 @@ function LandingSkillsContent() {
           as="h3"
           color={"#032747"}
           fontWeight="600"
-          fontSize="4.2rem"
-          className="txt"
+          fontSize="3.2rem"
           mb={"20px"}
         >
           Frontend Designer
@@ -37,8 +33,7 @@ function LandingSkillsContent() {
         <Text
           color={"#918C8C"}
           fontWeight="500"
-          className="txt"
-          fontSize="1.5rem"
+          fontSize="1.75rem"
           mb={"35px"}
         >
           I can design anything as per your requirement as I am skilled in HTML, CSS, and
@@ -50,10 +45,10 @@ JavaScript/jQuery, resulting in responsive interfaces.
           <Link
             fontWeight={600}
             _hover={{ textDecoration: "none" }}
-            href="/blogs"
+            href="/experience"
           >
           <Text
-            fontSize="1.5rem"
+            fontSize="1.75rem"
             // ml="15px"
             p="8px 16px"
             borderRadius="4px"
@@ -66,9 +61,9 @@ JavaScript/jQuery, resulting in responsive interfaces.
           </Text>
             </Link>
         </Flex>
-      </Box>
+      </Flex>
     </>
   );
 }
 
-export default LandingSkillsContent;
+export default LandingSkillsContents;

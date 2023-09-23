@@ -33,7 +33,7 @@ function PublicRouter() {
                   <Navbar />
                 </Flex>
               </Box>
-              <Box className="content-bg">
+              <Box className="content-bg" minH={"calc(100vh - 124px)"}>
 
                 <Box>
                   <Routes>

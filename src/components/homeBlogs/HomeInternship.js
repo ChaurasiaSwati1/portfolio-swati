@@ -35,7 +35,7 @@ function HomeInternship() {
               but with dedication and support from my team, I quickly grasped
               the concepts and started producing quality work.
             <br/>
-              During my internship at <Link href="">Exalogic Consulting</Link>, I had the opportunity
+              During my internship at <Link href="https://www.exalogic.co/" color={"#f12c2c"}>Exalogic Consulting</Link>, I had the opportunity
               to work on various projects, including Edental Portal, Realcube
               Portal, and Engage App. These experiences allowed me to apply my
               knowledge of front-end technologies such as HTML, CSS, Bootstrap,
