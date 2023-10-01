@@ -16,12 +16,12 @@ function GalleryIndexPage() {
   return (
     <>
       <Box w={"100%"}>
-      <Container maxW="100%" py={"0"} px={0}>
+      <Container maxW="100%" pt={"0"} pb={"30px"} px={0}>
           <Box>
             <Name />
           </Box>
           </Container>
-        <Container maxW="container.xl" py={"0"} px={7}>
+        <Container maxW="container.xl" py={"0"} px={12}>
           <SimpleGrid templateColumns={{ lg: "1fr" }} spacing={5}>
             <Box>
             {/* <Text fontSize="2.25rem" textAlign={"center"} fontWeight="600" pb="10">

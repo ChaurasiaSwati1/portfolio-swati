@@ -92,7 +92,7 @@ function AboutContent() {
     {
       pic: fire,
       url: "https://firebase.google.com/docs/hosting",
-      heading: "Fibase",
+      heading: "Firebase",
       desc: "Hosted project to firebase.",
     },
   ];
@@ -101,7 +101,7 @@ function AboutContent() {
 
   return (
     <>
-        <Container maxW="container.xl" pt={"0"} px={7} overflowY={"auto"} pb="30px" color={"#032747"}>
+        <Container maxW="container.xl" pt={"0"} px={12} overflowY={"auto"} pb="30px" color={"#032747"}>
           <Text pb="10" fontSize="2rem" fontWeight="600">
             Frontend Technogies and Additional Skills
           </Text>
@@ -111,6 +111,7 @@ function AboutContent() {
               <Box key={"index"}>
                 <Card borderRadius={"8px"}
                   direction={{sm: 'row' }}
+                  h={"100%"}
                   overflow='hidden'
                   variant='outline'
                 >

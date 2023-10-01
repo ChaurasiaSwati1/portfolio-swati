@@ -19,8 +19,8 @@ function About() {
 
   return (
     <>
-    <Box background={"#f8eaea"} p={7}>
-      <Container maxW="container.xl" py={"0"} px={7} >
+    <Box background={"#f8eaea"}>
+      <Container maxW="container.xl" pb={"25px"} px={12} >
         <Text pb="10" fontSize="2rem" fontWeight="600">
           Education
         </Text>
@@ -30,6 +30,7 @@ function About() {
               direction={{ sm: 'row' }}
               className="home_card"
               overflow='hidden'
+              h={"100%"}
               variant='outline'
             >
               <Box
@@ -61,6 +62,7 @@ function About() {
               direction={{ sm: 'row' }}
               overflow='hidden'
               variant='outline'
+              h={"100%"}
               className="home_card"
             >
               <Box

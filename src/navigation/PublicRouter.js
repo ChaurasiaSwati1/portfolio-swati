@@ -33,12 +33,13 @@ function PublicRouter() {
                   <Navbar />
                 </Flex>
               </Box>
-              <Box className="content-bg" minH={"calc(100vh - 124px)"}>
+              <Flex minH={"calc(100vh - 64px)"} flexDirection={"column"} justifyContent={"space-between"}>
+              <Box className="content-bg" >
 
                 <Box>
                   <Routes>
                     <Route path='/' element={<Landing />} />
-                    <Route exact path='/blogs' element={<HomeIndexPage />} />
+                    {/* <Route exact path='/blogs' element={<HomeIndexPage />} /> */}
                     <Route path='/skills' element={<AboutIndexPage />} />
                     <Route path='/experience' element={<ExperienceIndexPage />} />
                     <Route path='/contact' element={<ContactIndexPage />} />
@@ -51,6 +52,7 @@ function PublicRouter() {
                   <FooterLayout />
                 </Flex>
               </Box>
+              </Flex>
             </Box>
           </Box>
 

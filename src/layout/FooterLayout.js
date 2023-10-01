@@ -54,13 +54,13 @@ function FooterLayout() {
 			active: "skills",
 
 		},
-		{
-			// pic: GiNotebook,
-			title: "Blogs",
-			url: "/blogs",
-			active: "blogs",
+		// {
+		// 	// pic: GiNotebook,
+		// 	title: "Blogs",
+		// 	url: "/blogs",
+		// 	active: "blogs",
 
-		},
+		// },
 		{
 			// pic: BsBriefcaseFill,
 			title: "Work Experience",
@@ -77,7 +77,7 @@ function FooterLayout() {
   return (
     <>
       <Flex w="100%"  >
-        <Container maxW="container.xl"  px={7} minH="60px">
+        <Container maxW="container.xl"  px={12} minH="60px">
             <SimpleGrid className="footer" py={"30px"} templateColumns={{ sm: "1fr 1fr 1fr" }} spacing={{ sm: "10px", md: "30px" }} w={"100%"}>
               <Box textAlign="center">
                 <Image
@@ -130,13 +130,13 @@ function FooterLayout() {
               </Box>
             </SimpleGrid>
             <Divider borderColor={"#efa0a0"}/>
-            <SimpleGrid alignItems={"center"} className="footer" py={"5"} templateColumns={{ sm: "1fr 1fr" }} spacing={{ sm: "0", md: "30px" }} w={"100%"}>            
-            <List display={"flex"} alignItems={"center"}>
+            <SimpleGrid alignItems={"center"} className="footer" pt={"5"} pb={"25px"} templateColumns={{ sm: "2fr 1fr" }} spacing={{ sm: "0", md: "30px" }} w={"100%"}>            
+            <List display={"flex"} alignItems={"center"}  justifyContent={{base: "center", sm: "left" }}>
 							{menuItems.map((item, index) => (
 								<ListItem key={index}
 									borderRadius="2px"
 									color="#032747"
-
+                  className="footer_lists"
 								>
 									<Link className="footer_list" href={item.url} display={"flex"} p={"5px 12px"} ml={"5"} _hover={{
 											textDecoration: "none"
@@ -154,7 +154,7 @@ function FooterLayout() {
 								</ListItem>
 							))}
 						</List> 
-            <Text display={{base: "none", sm: "inline-block" }} className="menu-txt" textAlign={"right"} fontSize={"1.5rem"}
+            <Text display={{base: "none", sm: "inline-block" }} className="menu-txt" textAlign={{base: "none", sm: "right" }} fontSize={"1.5rem"}
 											fontWeight="600">Swati Chaurasia</Text>
             </SimpleGrid>
         </Container>

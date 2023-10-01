@@ -19,8 +19,7 @@ function Hobbies() {
 
   return (
     <>
-    <Box p={7}>
-      <Container maxW="container.xl" py={"0"} px={7} >
+      <Container maxW="container.xl" pb={"15px"} px={12} >
         <Text pb="10" fontSize="2rem" fontWeight="600">
           Hobbies
         </Text>
@@ -130,7 +129,6 @@ function Hobbies() {
           </Box>
         </SimpleGrid>
       </Container>
-      </Box>
     </>
   );
 }

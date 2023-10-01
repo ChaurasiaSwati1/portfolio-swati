@@ -19,7 +19,7 @@ function ContactIndexPage() {
   return (
     <>
       <Box w={"100%"}>
-      <Container maxW="100%" py={"0"} px={0}>
+      <Container maxW="100%" pt={"0"} pb={"30px"} px={0}>
           <Box>
             <Name />
           </Box>

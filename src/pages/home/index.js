@@ -17,12 +17,12 @@ function HomeIndexPage() {
   return (
     <>
       <Box w={"100%"}>
-      <Container maxW="100%" py={"0"} px={0}>
+      <Container maxW="100%"  pt={"0"} pb={"30px"} px={0}>
           <Box>
             <Name />
           </Box>
           </Container>
-        <Container maxW="container.xl" py={"0"} px={7}>
+        <Container maxW="container.xl" py={"0"} px={12}>
           {/* <Text pb="10" fontSize="2rem" fontWeight="600">
             Overview
           </Text> */}

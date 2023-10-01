@@ -37,13 +37,13 @@ function MenuBar() {
 			active: "skills",
 
 		},
-		{
-			// pic: GiNotebook,
-			title: "Blogs",
-			url: "/blogs",
-			active: "blogs",
+		// {
+		// 	// pic: GiNotebook,
+		// 	title: "Blogs",
+		// 	url: "/blogs",
+		// 	active: "blogs",
 
-		},
+		// },
 		{
 			// pic: BsBriefcaseFill,
 			title: "Work Experience",
@@ -187,7 +187,7 @@ function MenuBar() {
 								_hover={{ textDecoration: "none" }}
 								href={rc}
 								download="swati-resume.pdf"
-								ml={"15px"}
+								ml={"30px"}
 							>
 								<Text
 									fontSize="1.5rem"

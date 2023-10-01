@@ -8,7 +8,7 @@ function Footer() {
  return (
    <>
      <Flex w="100%" borderRadius="8px"  h="100%" py={"30px"}>
-        <Container maxW="container.xl" py={"0"} px={7}>
+        <Container maxW="container.xl" py={"0"} px={12}>
            <Flex py="18px">
               <FooterLayout/>
            </Flex>

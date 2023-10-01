@@ -12,7 +12,7 @@ function AboutCard() {
     return (
         <>
             <Flex w="100%" bg={"#ffffff"} pb={"30px"}>
-                <Container maxW="container.xl" p="7">
+                <Container maxW="container.xl" py="7" px={12}>
                     <SimpleGrid w="100%" templateColumns={{ base: "1fr", sm: "1fr 1fr 1fr" }} alignItems={"center"} spacing={{ base: "10px",md: "15px", lg: "30px" }}>
                         <Card w='100%' className="home_card" h="100%">
                             <CardBody className="card_body">
@@ -20,8 +20,7 @@ function AboutCard() {
                                     className=""
                                     src={internship}
                                     mx={"auto"}
-                                    top={"55px"}
-                                    maxH="220px"
+                                    maxH={{base: "70px", md: "220px"}}
                                     mb={"20px"}
                                     w="100%"
                                     borderRadius={"6px"}
@@ -41,17 +40,15 @@ function AboutCard() {
                                     className=""
                                     src={ui}
                                     mx={"auto"}
-                                    top={"55px"}
-                                    maxH="220px"
+                                    maxH={{base: "70px", md: "220px"}}
                                     mb={"20px"}
                                     w="100%"
                                     borderRadius={"6px"}
                                     objectFit="cover"
 
                                 />
-                                <Text as={"h4"} mb={"8px"} fontWeight={"600"} fontSize="2rem">Associate UI Developer</Text>
-                                <Text as={"h6"} fontWeight={"500"} fontSize="1.6rem">After completing internship at <Link href="https://www.exalogic.co/" target="_blank" color={"#f12c2c"}>Exalogic Consulting</Link> am working as UI Developer.
-                                    I had a valuable internship experience where I gained hands-on experience working with various technologies. React JS, HTML, CSS, JavaScript, <Link href="/blogs" color={"#f12c2c"}>more...</Link>.
+                                <Text as={"h4"} mb={"8px"} fontWeight={"600"} fontSize="2rem">UI Developer</Text>
+                                <Text as={"h6"} fontWeight={"500"} fontSize="1.6rem">After completing internship at <Link href="https://www.exalogic.co/" target="_blank" color={"#f12c2c"}>Exalogic Consulting</Link> am working as UI Developer and exploring new technologies like React JS, Appgyver <Link href="/blogs" color={"#f12c2c"}>more...</Link>.
                                 </Text>
                             </CardBody>
                         </Card>
@@ -61,8 +58,7 @@ function AboutCard() {
                                     className=""
                                     src={laptop}
                                     mx={"auto"}
-                                    top={"55px"}
-                                    maxH="220px"
+                                    maxH={{base: "70px", md: "220px"}}
                                     mb={"20px"}
                                     w="100%"
                                     borderRadius={"6px"}

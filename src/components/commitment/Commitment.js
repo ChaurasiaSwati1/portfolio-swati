@@ -11,7 +11,7 @@ function Commitment() {
         <>
             <Flex w="100%" bg={"#f12c2c"} className="">
 
-                <Container maxW="container.xl" p="7">
+                <Container maxW="container.xl" px={12} py="7">
                     <Flex alignItems={"center"} direction={"column"}>
                         <Text
                             as="h3"
@@ -19,6 +19,8 @@ function Commitment() {
                             fontWeight="600"
                             fontSize="3.2rem"
                             mb={"20px"}
+                            textAlign={"center"}
+                            w={"100%"}
                         >
                             About Me...
                         </Text>

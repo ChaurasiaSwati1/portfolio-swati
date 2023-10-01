@@ -7,11 +7,11 @@ import arrow from "../../assets/img/arrow.png";
 function Name() {
   return (
     <>
-      <Container maxW="container.xl" py={"0"} px={7}
+      <Container maxW="container.xl" py={"0"} px={12}
         overflowY={"auto"}
         color={"#032747"}
       >
-        <Box className="banner" backgroundBlendMode={"darken"} backgroundSize={"cover"} p={{ sm: "25px", md: "35px" }} mb="30px">
+        <Box className="banner" backgroundBlendMode={"darken"} backgroundSize={"cover"} p={{ sm: "25px", md: "35px" }}>
 
           <SimpleGrid templateColumns={{ sm: "1fr 1fr" }} spacing={5}>
             <Flex className="name-txt" justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>

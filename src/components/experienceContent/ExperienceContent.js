@@ -24,7 +24,7 @@ function ExperienceContent() {
   return (
     <>
       <Box w="100%">
-        <Container maxW="container.xl" py={"0"} px={7} overflowY={"auto"} color={"#032747"}>
+        <Container maxW="container.xl" py={"0"} px={12} overflowY={"auto"} color={"#032747"}>
           <Text pb="10" fontSize="2rem" fontWeight="600">
             Experience at Exalogic
           </Text>
@@ -197,17 +197,19 @@ function ExperienceContent() {
                     </Text>
                     <Text fontWeight="500" fontSize={"1.5rem"}>
                       eDental Portal is Middle East’s only dental exam
-                      preparatory platform. We guide qualified dentists to
-                      prepare for Dental Licensing Examinations across the Gulf
-                      countries, enabling dentists to be registered and legally
-                      practice in the Gulf. There is a significant gap between
-                      what is taught at Universities, what is practiced
-                      clinically and what is tested in licensing exams. To
-                      bridge the gap, eDental offers a personalised, intelligent
-                      revision resource that gives you access to extensive
-                      question bank, rich explanations, simulated tests, tutor
-                      support and progress analysis. We help you focus on your
-                      exam preparation effectively to achieve exam success.
+                      preparatory platform. In this Project....
+<br/>
+I worked as a Frontend Developer where I created UI screens which improves the sales by 40%.
+<br/>
+In this project I used...
+<ul className="pl-3">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>Javascript</li>
+  <li>Php</li>
+</ul>
+
                     </Text>
                   </CardBody>
                 </Card>
@@ -247,10 +249,17 @@ function ExperienceContent() {
                     <Text fontWeight="500" fontSize={"1.5rem"}>
                       RealCube is the leading cloud-based intelligent solution
                       provider for property management and facilities management
-                      industries. We believe in the power of technology to
-                      change the world for the better, and we are committed to
-                      creating products that empower people and businesses to
-                      achieve their goals.
+                      industries. 
+                      <br/>
+I worked as a Frontend Developer where I created UI screens which is fully responsive.
+<br/>
+In this project I used...
+<ul className="pl-3">
+  <li>HTML</li>
+  <li>CSS/Bootstrap</li>
+  <li>Javascript</li>
+  <li>Php</li>
+</ul>
                     </Text>
                   </CardBody>
                 </Card>
@@ -290,13 +299,17 @@ function ExperienceContent() {
                     <Text fontWeight="500" fontSize={"1.5rem"}>
                       Engage is a simple and efficient employee management tool,
                       it helps you to plan and organize in a way which is best
-                      suitable for you and your team. Engage is aimed at, giving
-                      you and your team the ability to manage your self by
-                      collaborating with watch other. To this extant engage
-                      takes care of all small miscellaneous tasks associated
-                      with managing, by providing you relevant information on
-                      your fingertips and gives you and your team the
-                      opportunity to focus on the work which matters.
+                      suitable for you and your team. 
+                      <br/>
+I worked as a Frontend Developer where I created UI screens which improves the sales by 40%.
+<br/>
+In this project I used...
+<ul className="pl-3">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>React Js</li>
+</ul>
                     </Text>
                   </CardBody>
                 </Card>
@@ -335,21 +348,14 @@ function ExperienceContent() {
                       screens.
                     </Text>
                     <Text fontWeight="500" fontSize={"1.5rem"}>
-                      International Capital Trading (ICT) is a privately owned,
-                      progressive leader in real estate development. Rooting its
-                      values deeply in the ethical sustainability goals of Abu
-                      Dhabi 2030, ICT aims to enhance the quality and enjoyment
-                      of urban living for generations to come. With established
-                      assets and operations throughout the world, ICT has
-                      developed a reputation for its active policies of
-                      corporate responsibility. <br />
-                      ICT’s pioneering mixed-use projects include Nation Towers,
-                      United Square, and Cubes Park, each of which occupies
-                      prime frontage along the Abu Dhabi corniche. Community and
-                      residential developments include the ocean-inspired
-                      Marasy, Al Aryam and Al Bateen Gardens. ICT’s luxury St.
-                      Regis and Al Raha Beach hotels make Abu Dhabi a world
-                      class tourist destination.
+                    In this project I used...
+<ul className="pl-3">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>Javascript</li>
+  <li>Php</li>
+</ul>
                     </Text>
                   </CardBody>
                 </Card>
@@ -368,7 +374,7 @@ function ExperienceContent() {
             <Box>
               <Link
                 className="card_ovrlay"
-                href="https://www.engageapp.cloud/"
+                href="https://www.ecadamia.com/"
                 position="relative"
                 target="_blank"
                 color="purple.600"
@@ -388,18 +394,16 @@ function ExperienceContent() {
                       powered by digital innovation
                     </Text>
                     <Text fontWeight="500" fontSize={"1.5rem"}>
-                      Ecadamia is an inclusive education management platform
-                      that addresses every requirement of educational
-                      institutions. It works on streamlining legacy processes
-                      with the help of a state-of-the-art digital architecture
-                      that improves resource utilization while reducing costs
-                      and time taken to complete these tasks.<br/> Ecadamia removes
-                      siloes within your organization and seamlessly integrates
-                      a variety of functions with and maps them to relevant
-                      stakeholders all through a simple and easy to use
-                      solution. Leveraging the power of digital you manage the
-                      growth of your educational institution anywhere, anytime,
-                      with just a few clicks and actions.
+I worked as a Frontend Developer where I created Landing page and other UI screens.
+<br/>
+In this project I used...
+<ul className="pl-3">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>Javascript</li>
+  <li>Php</li>
+</ul>
                     </Text>
                   </CardBody>
                 </Card>
