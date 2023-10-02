@@ -81,7 +81,7 @@ function LandingContent() {
           <Link
             fontWeight={600}
             _hover={{ textDecoration: "none" }}
-            href="/blogs"
+            href="/experience"
           >
           <Text
             fontSize="1.5rem"

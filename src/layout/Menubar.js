@@ -60,7 +60,6 @@ function MenuBar() {
 
 	return (
 		<>
-			<Flex w="100%"  >
 				<Container maxW="100%" p="0" >
 					<Flex alignItems={"center"} display={{ sm: "flex", md: "none" }} className="mobile-nav">
 
@@ -206,7 +205,6 @@ function MenuBar() {
 
 					</Flex>
 				</Container>
-			</Flex>
 		</>
 	);
 }

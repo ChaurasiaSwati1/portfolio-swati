@@ -45,7 +45,7 @@ JavaScript/jQuery, resulting in responsive interfaces.
           <Link
             fontWeight={600}
             _hover={{ textDecoration: "none" }}
-            href="/experience"
+            href="/skills"
           >
           <Text
             fontSize="1.75rem"
