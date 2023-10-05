@@ -1,15 +1,9 @@
-import {
-  Box,
-  Container,
-  Flex,
-  Image,
-  SimpleGrid,
-  Text,
-} from "@chakra-ui/react";
 import React from "react";
-import LandingBanner from "../../layout/LandingBanner";
-import Commitment from "../../components/commitment/Commitment";
 import AboutCard from "../../components/aboutCard/aboutCard";
+import Commitment from "../../components/commitment/Commitment";
+import Projects from "../../components/projects/projects";
+import SkillGraphs from "../../components/skillGraphs/skillGraphs";
+import LandingBanner from "../../layout/LandingBanner";
 import LandingSkill from "../../layout/LandingSkill";
 
 function Landing() {
@@ -18,7 +12,9 @@ function Landing() {
       <LandingBanner/>
       <LandingSkill/>
       <Commitment/>
+      {/* <SkillGraphs/> */}
       <AboutCard/>
+      <Projects/>
     </>
   );
 }

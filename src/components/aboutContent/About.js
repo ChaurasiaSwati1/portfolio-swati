@@ -19,7 +19,7 @@ function About() {
 
   return (
     <>
-    <Box background={"#f8eaea"}>
+    <Box background={"#B2F5EA"}>
       <Container maxW="container.xl" pb={"25px"} px={12} >
         <Text pb="10" fontSize="2rem" fontWeight="600">
           Education

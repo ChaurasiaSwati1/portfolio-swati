@@ -85,13 +85,13 @@ function FooterLayout() {
                   height={{base:"70px",md:"100px"}}
                   width={{base:"70px",md:"100px"}}
                   borderRadius={"50%"}
-                  border="4px solid #f12c2c"
+                  border="4px solid #1D4044"
                   mx="auto"
                   mb="15px"
                   src={profile} alt='logo'
                 />
                 <Text as={"h4"} mb={""} fontWeight={"600"} fontSize="2rem">Swati Chaurasia</Text>
-                <Text as={"h4"} mb={"0"} fontWeight={"600"} color={"#f12c2c"} fontSize="1.5rem">Associate UI Developer</Text>
+                <Text as={"h4"} mb={"0"} fontWeight={"600"} color={"#1D4044"} fontSize="1.5rem">Associate UI Developer</Text>
 
               </Box>
               <Box textAlign="">
@@ -118,10 +118,10 @@ function FooterLayout() {
                     // ml="15px"
                     p="8px 16px"
                     borderRadius="4px"
-                    background="#f12c2c"
+                    background="#1D4044"
                     color="#ffffff"
                     height={"32px"}
-                    _hover={{ padding: "7px 15px", background: "#ffffff", color: "#f12c2c", border: "1px solid #f12c2c" }}
+                    _hover={{ padding: "7px 15px", background: "#ffffff", color: "#1D4044", border: "1px solid #1D4044" }}
                   >
                     {" "}
                     Contact Me

@@ -9,7 +9,7 @@ import { useLocation } from "react-router-dom";
 function Commitment() {
         return (
         <>
-            <Flex w="100%" bg={"#f12c2c"} className="">
+            <Flex w="100%" bg={"#1D4044"} className="">
 
                 <Container maxW="container.xl" px={12} py="7">
                     <Flex alignItems={"center"} direction={"column"}>

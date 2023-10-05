@@ -37,8 +37,8 @@ function LandingContent() {
           as="h2"
           color={"#032747"}
           fontWeight="700"
-          className="txt"
-          fontSize="4rem"
+          className=""
+          fontSize={{base: '3rem', md: '3.4rem', lg: '4.5rem', xl:'6rem'}}
         >
           Associate UI Developer
         </Text>
@@ -88,9 +88,9 @@ function LandingContent() {
             // ml="15px"
             p="8px 16px"
             borderRadius="4px"
-            background="#f12c2c"
+            background="#1D4044"
             color="#ffffff"
-            _hover={{ padding: "7px 15px", background: "#ffffff", color: "#f12c2c", border: "1px solid #f12c2c" }}
+            _hover={{ padding: "7px 15px", background: "#ffffff", color: "#1D4044", border: "1px solid #1D4044" }}
           >
             {" "}
               Browse Projects

@@ -6,7 +6,7 @@ function LandingSkillsContents() {
       <Flex className="land-left" justifyContent={"center"} alignContent={"center"} flexDirection={"column"}>
         <Text
           as="h6"
-          color={"#f77272"}
+          color={"#1D4044"}
           fontWeight="600"
           fontSize="1.75rem"
           mb={"10px"}
@@ -52,9 +52,9 @@ JavaScript/jQuery, resulting in responsive interfaces.
             // ml="15px"
             p="8px 16px"
             borderRadius="4px"
-            background="#f12c2c"
+            background="#1D4044"
             color="#ffffff"
-            _hover={{ padding: "7px 15px", background: "#ffffff", color: "#f12c2c", border: "1px solid #f12c2c" }}
+            _hover={{ padding: "7px 15px", background: "#ffffff", color: "#1D4044", border: "1px solid #1D4044" }}
           >
             {" "}
               Explore More..

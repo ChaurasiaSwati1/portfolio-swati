@@ -8,10 +8,10 @@ import ui from "../../assets/img/ui.jpg";
 import React from "react";
 import laptop from "../../assets/img/laptop-png-6746.png";
 
-function AboutCard() {
+function SkillGraphs() {
     return (
         <>
-            <Flex w="100%" bg={"#f9f9f9"} pb={"30px"}>
+            <Flex w="100%" bg={"#ffffff"} pb={"30px"}>
                 <Container maxW="container.xl" py="7" px={12}>
                 <Text
                             as="h3"
@@ -21,7 +21,7 @@ function AboutCard() {
                             mb={"20px"}
                             w={"100%"}
                         >
-                            Experience
+                            Skills
                         </Text>
                     <SimpleGrid w="100%" templateColumns={{ base: "1fr", sm: "1fr 1fr 1fr" }} alignItems={"center"} spacing={{ base: "10px", md: "15px", lg: "30px" }}>
                         <Card w='100%' className="home_card" h="100%">
@@ -89,4 +89,4 @@ function AboutCard() {
     );
 }
 
-export default AboutCard;
+export default SkillGraphs;

@@ -88,10 +88,10 @@ function MenuBar() {
 								fontSize="1.5rem"
 								p="6px 15px"
 								borderRadius="4px"
-								border="1px solid #f12c2c"
+								border="1px solid #1D4044"
 								background="#ffffff"
-								color="#f12c2c"
-								_hover={{ background: "#f12c2c", color: "#ffffff" }}
+								color="#1D4044"
+								_hover={{ background: "#1D4044", color: "#ffffff" }}
 							>
 								{" "}
 								Download CV
@@ -192,10 +192,10 @@ function MenuBar() {
 									fontSize="1.5rem"
 									p="6px 15px"
 									borderRadius="4px"
-									border="1px solid #f12c2c"
+									border="1px solid #1D4044"
 									background="#ffffff"
-									color="#f12c2c"
-									_hover={{ background: "#f12c2c", color: "#ffffff" }}
+									color="#1D4044"
+									_hover={{ background: "#1D4044", color: "#ffffff" }}
 								>
 									{" "}
 									Download CV
