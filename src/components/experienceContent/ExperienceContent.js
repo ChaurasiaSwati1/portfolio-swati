@@ -19,6 +19,36 @@ import engage from "../../assets/img/engage.png";
 import rc from "../../assets/img/rc.svg";
 import ict from "../../assets/img/ict.svg";
 import ecadamia from "../../assets/img/ecadamia.png";
+import ProjectCardLayout from "./ProjectCard";
+
+const project1 = [
+  { id: 1, name: "Feel Good Stay" },
+  { id: 2, name: "EXC-Academy" },
+  { id: 3, name: "REFX" },
+  { id: 4, name: "Edental" },
+  { id: 5, name: "Engage" },
+  { id: 6, name: "Ecadamia" },
+  { id: 7, name: "Realcube" },
+  { id: 8, name: "Provis" },
+]
+const project2 = [
+  { id: 1, name: "ICT" },
+  { id: 2, name: "Smart Farm" },
+  { id: 3, name: "E-Nursing" },
+  { id: 4, name: "Mall management" },
+  { id: 5, name: "RCOAPM" },
+  { id: 6, name: "POS" },
+  { id: 7, name: "My Villa" },
+  { id: 8, name: "HR-PED" },
+]
+const experience = [
+  { id: 1, desc: `Developed application UIs via emerging front-end technologies like HTML, CSS, Bootstrap, Javascript, Jquery, React JS, Chakra UI and Tailwind CSS.` },
+  { id: 2, desc: `Hands on experience in developing Interactive UI Screens, implementing functional Logic using HTML, CSS, Javascript/Jquery.` },
+  { id: 3, desc: `Worked with UI team and project managers to develop and present Logical UI Screens.` },
+  { id: 4, desc: `Collaborate with designers to implement concept and  design of website.` },
+  { id: 5, desc: `Developed User-frendly, Interactive and Responsive Web page Design.` },
+  { id: 6, desc: `Worked on SEO optimization.` },
+]
 
 function ExperienceContent() {
   return (
@@ -52,43 +82,11 @@ function ExperienceContent() {
                       fontWeight="500"
                       ml="2.2rem"
                     >
-                      <ListItem>
-                        <Text fontSize={"1.75rem"} mb="5">
-                          Developed application UIs via emerging front- end
-                          technologies like HTML, CSS, Bootstrap, Javascript,
-                          Jquery, React JS, Chakra UI.
-                        </Text>
-                      </ListItem>
-                      <ListItem>
-                        <Text fontSize={"1.75rem"} mb="5">
-                          Hands on experience in developing Interactive UI
-                          Screens, implementing functional Logic using HTML,
-                          CSS, Javascript/Jquery.
-                        </Text>
-                      </ListItem>
-                      <ListItem>
-                        <Text fontSize={"1.75rem"} mb="5">
-                          Worked with UI team and project managers to develop
-                          and present Logical UI Screens.
-                        </Text>
-                      </ListItem>
-                      <ListItem>
-                        <Text fontSize={"1.75rem"} mb="5">
-                          Collaborate with designers to implement concept and
-                          design of website.
-                        </Text>
-                      </ListItem>
-                      <ListItem>
-                        <Text fontSize={"1.75rem"} mb="5">
-                          Developed User-frendly, Interactive and Responsive Web
-                          page Design.
-                        </Text>
-                      </ListItem>
-                      <ListItem>
-                        <Text fontSize={"1.75rem"} mb="5">
-                          Worked on SEO optimization .
-                        </Text>
-                      </ListItem>
+                      {experience.map((i) => (
+                        <ListItem fontSize="1.75rem" mb="5" key={i.id}>
+                          {i.desc}
+                        </ListItem>
+                      ))}
                     </UnorderedList>
                   </Box>
                 </CardBody>
@@ -113,44 +111,18 @@ function ExperienceContent() {
                       spacing={5}
                     >
                       <UnorderedList pt="5" ml="2.2rem">
-                        <ListItem fontSize="1.75rem" pb="2">
-                          Edental
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          Realcube
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          Provis
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          Ecademia
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          Mall Management
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          POS - Point of Sale
-                        </ListItem>
+                        {project1.map((i) => (
+                          <ListItem fontSize="1.75rem" pb="2" key={i.id}>
+                            {i.name}
+                          </ListItem>
+                        ))}
                       </UnorderedList>
                       <UnorderedList pt="5" ml="2.2rem">
-                        <ListItem fontSize="1.75rem" pb="2">
-                          Engage
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          SCMAF
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          SmartFarm
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          E-Nursing
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          RCOAPM
-                        </ListItem>
-                        <ListItem fontSize="1.75rem" pb="2">
-                          My Villa
-                        </ListItem>
+                        {project2.map((i) => (
+                          <ListItem fontSize="1.75rem" pb="2" key={i.id}>
+                            {i.name}
+                          </ListItem>
+                        ))}
                       </UnorderedList>
                     </SimpleGrid>
                     <OrderedList fontSize={"1.75rem"} fontWeight={500} pt={5}>
@@ -174,277 +146,11 @@ function ExperienceContent() {
             spacingY="10"
             mb="10"
           >
-            <Box>
-              <Link
-                className="card_ovrlay"
-                href="https://www.edentalportal.com/"
-                position="relative"
-                target="_blank"
-                color="purple.600"
-                textDecoration={"none"}
-                _hover={{ textDecoration: "none" }}
-              >
-                <Card
-                  borderRadius={"8px"}
-                  direction={{ base: "column", sm: "row" }}
-                  overflow="hidden"
-                  variant="outline"
-                  h="100%"
-                >
-                  <CardBody p="3rem">
-                    <Text fontSize="2rem" fontWeight="600" pb="5">
-                      Edental Portal - Worked as Frontend Developer
-                    </Text>
-                    <Text fontWeight="500" fontSize={"1.5rem"}>
-                      eDental Portal is Middle East’s only dental exam
-                      preparatory platform. In this Project....
-<br/>
-I worked as a Frontend Developer where I created UI screens which improves the sales by 40%.
-<br/>
-In this project I used...
-<ul className="pl-3">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Bootstrap</li>
-  <li>Javascript</li>
-  <li>Php</li>
-</ul>
 
-                    </Text>
-                  </CardBody>
-                </Card>
-
-                <Box className="content" borderRadius="8px">
-                  <Image
-                    src={edental}
-                    height="100%"
-                    mx="auto"
-                    alt="edental"
-                    objectFit={"contain"}
-                  />
-                </Box>
-              </Link>
-            </Box>
-            <Box>
-              <Link
-                className="card_ovrlay"
-                href="https://www.realcube.estate/"
-                position="relative"
-                target="_blank"
-                color="purple.600"
-                textDecoration={"none"}
-                _hover={{ textDecoration: "none" }}
-              >
-                <Card
-                  borderRadius={"8px"}
-                  direction={{ base: "column", sm: "row" }}
-                  overflow="hidden"
-                  variant="outline"
-                  h="100%"
-                >
-                  <CardBody p="3rem">
-                    <Text fontSize="2rem" fontWeight="600" pb="5">
-                      Realcube Property Portal - Worked as Frontend Developer
-                    </Text>
-                    <Text fontWeight="500" fontSize={"1.5rem"}>
-                      RealCube is the leading cloud-based intelligent solution
-                      provider for property management and facilities management
-                      industries. 
-                      <br/>
-I worked as a Frontend Developer where I created UI screens which is fully responsive.
-<br/>
-In this project I used...
-<ul className="pl-3">
-  <li>HTML</li>
-  <li>CSS/Bootstrap</li>
-  <li>Javascript</li>
-  <li>Php</li>
-</ul>
-                    </Text>
-                  </CardBody>
-                </Card>
-
-                <Box className="content" borderRadius="8px">
-                  <Image
-                    src={rc}
-                    height="100%"
-                    mx="auto"
-                    alt="realcube"
-                    objectFit={"contain"}
-                  />
-                </Box>
-              </Link>
-            </Box>
-            <Box>
-              <Link
-                className="card_ovrlay"
-                href="https://www.engageapp.cloud/"
-                position="relative"
-                target="_blank"
-                color="purple.600"
-                textDecoration={"none"}
-                _hover={{ textDecoration: "none" }}
-              >
-                <Card
-                  borderRadius={"8px"}
-                  direction={{ base: "column", sm: "row" }}
-                  overflow="hidden"
-                  variant="outline"
-                  h="100%"
-                >
-                  <CardBody p="3rem">
-                    <Text fontSize="2rem" fontWeight="600" pb="5">
-                      Engage App Cloud - Worked as Frontend Developer
-                    </Text>
-                    <Text fontWeight="500" fontSize={"1.5rem"}>
-                      Engage is a simple and efficient employee management tool,
-                      it helps you to plan and organize in a way which is best
-                      suitable for you and your team. 
-                      <br/>
-I worked as a Frontend Developer where I created UI screens which improves the sales by 40%.
-<br/>
-In this project I used...
-<ul className="pl-3">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Bootstrap</li>
-  <li>React Js</li>
-</ul>
-                    </Text>
-                  </CardBody>
-                </Card>
-
-                <Box className="content" borderRadius="8px">
-                  <Image
-                    src={engage}
-                    height="100%"
-                    mx="auto"
-                    alt="engage"
-                    objectFit={"contain"}
-                  />
-                </Box>
-              </Link>
-            </Box>
-            <Box>
-              <Link
-                className="card_ovrlay"
-                href="https://www.ict.ae/"
-                position="relative"
-                target="_blank"
-                color="purple.600"
-                textDecoration={"none"}
-                _hover={{ textDecoration: "none" }}
-              >
-                <Card
-                  borderRadius={"8px"}
-                  direction={{ base: "column", sm: "row" }}
-                  overflow="hidden"
-                  variant="outline"
-                  h="100%"
-                >
-                  <CardBody p="3rem">
-                    <Text fontSize="2rem" fontWeight="600" pb="5">
-                      ICT Portal - Worked as Frontend Developer, created UI
-                      screens.
-                    </Text>
-                    <Text fontWeight="500" fontSize={"1.5rem"}>
-                    In this project I used...
-<ul className="pl-3">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Bootstrap</li>
-  <li>Javascript</li>
-  <li>Php</li>
-</ul>
-                    </Text>
-                  </CardBody>
-                </Card>
-
-                <Box className="content" borderRadius="8px">
-                  <Image
-                    src={ict}
-                    height="100%"
-                    mx="auto"
-                    alt="ict"
-                    objectFit={"contain"}
-                  />
-                </Box>
-              </Link>
-            </Box>
-            <Box>
-              <Link
-                className="card_ovrlay"
-                href="https://www.ecadamia.com/"
-                position="relative"
-                target="_blank"
-                color="purple.600"
-                textDecoration={"none"}
-                _hover={{ textDecoration: "none" }}
-              >
-                <Card
-                  borderRadius={"8px"}
-                  direction={{ base: "column", sm: "row" }}
-                  overflow="hidden"
-                  variant="outline"
-                  h="100%"
-                >
-                  <CardBody p="3rem">
-                    <Text fontSize="2rem" fontWeight="600" pb="5">
-                      Ecadamia - An integrated education management system
-                      powered by digital innovation
-                    </Text>
-                    <Text fontWeight="500" fontSize={"1.5rem"}>
-I worked as a Frontend Developer where I created Landing page and other UI screens.
-<br/>
-In this project I used...
-<ul className="pl-3">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Bootstrap</li>
-  <li>Javascript</li>
-  <li>Php</li>
-</ul>
-                    </Text>
-                  </CardBody>
-                </Card>
-
-                <Box className="content" borderRadius="8px">
-                  <Image
-                    src={ecadamia}
-                    height="100%"
-                    mx="auto"
-                    alt="ecadamia"
-                    objectFit={"contain"}
-                  />
-                </Box>
-              </Link>
-            </Box>
+            <ProjectCardLayout />
           </SimpleGrid>
           <Flex w="100%" mb="10">
-            <Card
-              borderRadius={"8px"}
-              direction={{ base: "column", sm: "row" }}
-              overflow="hidden"
-              variant="outline"
-              h="100%"
-              w="100%"
-            >
-              <CardBody p="3rem">
-                <Text fontSize="2rem" fontWeight="600" pb="5">
-                  In above projects..
-                </Text>
-                <UnorderedList fontSize={"1.75rem"} fontWeight={500} pt={5}>
-                  <ListItem pb="2">
-                    Developed UI Screens as per logic using HTML Css and Jquery.
-                  </ListItem>
-                  <ListItem pb="2">
-                    Also developed UI Screens using React Js, by passing Props,
-                    UseState , using various packages like Ant Design, react
-                    Counter, react-icon, react-apexcharts , and Chakra UI.
-                  </ListItem>
-                </UnorderedList>
-              </CardBody>
-            </Card>
+
           </Flex>
 
           <SimpleGrid
@@ -453,7 +159,7 @@ In this project I used...
             spacingY="10"
             mb="20"
           >
-            <Box>
+            {/* <Box>
               <Card
                 borderRadius={"8px"}
                 direction={{ base: "column", sm: "row" }}
@@ -483,6 +189,32 @@ In this project I used...
                     </ListItem>
                     <ListItem pb="2">
                       For Data storage I used Mongo DB.
+                    </ListItem>
+                  </UnorderedList>
+                </CardBody>
+              </Card>
+            </Box> */}
+            <Box>
+              <Card
+                borderRadius={"8px"}
+                direction={{ base: "column", sm: "row" }}
+                overflow="hidden"
+                variant="outline"
+                h="100%"
+                w="100%"
+              >
+                <CardBody p="3rem">
+                  <Text fontSize="2rem" fontWeight="600" pb="5">
+                    In above projects..
+                  </Text>
+                  <UnorderedList fontSize={"1.75rem"} fontWeight={500} pt={5}>
+                    <ListItem pb="2">
+                      Developed UI Screens as per logic using HTML Css and Jquery.
+                    </ListItem>
+                    <ListItem pb="2">
+                      Also developed UI Screens using React Js, by passing Props,
+                      UseState , using various packages like Ant Design, react
+                      Counter, react-icon, react-apexcharts , and Chakra UI.
                     </ListItem>
                   </UnorderedList>
                 </CardBody>
