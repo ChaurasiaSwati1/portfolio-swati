@@ -157,8 +157,8 @@ function MenuBar() {
 						</Box>
 						<Spacer />
 						<List display={"flex"} alignItems={"center"}>
-							{menuItem.map((item, index) => (
-								<ListItem key={index}
+							{menuItem.map((item, i) => (
+								<ListItem key={i}
 									py="8px"
 									borderRadius="2px"
 									ml="3"

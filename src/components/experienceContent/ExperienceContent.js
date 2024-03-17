@@ -1,35 +1,29 @@
 import {
   Box,
+  Card,
+  CardBody,
   Container,
   Flex,
   ListItem,
-  UnorderedList,
   OrderedList,
-  Heading,
-  Link,
-  CardBody,
-  Card,
-  Image,
   SimpleGrid,
   Text,
+  UnorderedList
 } from "@chakra-ui/react";
 import React from "react";
-import edental from "../../assets/img/edental_logo.svg";
-import engage from "../../assets/img/engage.png";
-import rc from "../../assets/img/rc.svg";
-import ict from "../../assets/img/ict.svg";
-import ecadamia from "../../assets/img/ecadamia.png";
 import ProjectCardLayout from "./ProjectCard";
 
 const project1 = [
   { id: 1, name: "Feel Good Stay" },
   { id: 2, name: "EXC-Academy" },
   { id: 3, name: "REFX" },
-  { id: 4, name: "Edental" },
-  { id: 5, name: "Engage" },
-  { id: 6, name: "Ecadamia" },
-  { id: 7, name: "Realcube" },
-  { id: 8, name: "Provis" },
+  { id: 4, name: "Edental Doctor Portal" },
+  { id: 5, name: "Edental Patient Portal" },
+  { id: 6, name: "Engage" },
+  { id: 7, name: "Ecadamia" },
+  { id: 8, name: "Realcube" },
+  { id: 9, name: "Provis" },
+  { id: 10, name: "Equipment Tool Management" },
 ]
 const project2 = [
   { id: 1, name: "ICT" },
@@ -40,10 +34,11 @@ const project2 = [
   { id: 6, name: "POS" },
   { id: 7, name: "My Villa" },
   { id: 8, name: "HR-PED" },
+  { id: 9, name: "BTP Sap Ariba Sourcing" },
 ]
 const experience = [
   { id: 1, desc: `Developed application UIs via emerging front-end technologies like HTML, CSS, Bootstrap, Javascript, Jquery, React JS, Chakra UI and Tailwind CSS.` },
-  { id: 2, desc: `Hands on experience in developing Interactive UI Screens, implementing functional Logic using HTML, CSS, Javascript/Jquery.` },
+  { id: 2, desc: `Hands on experience in developing Interactive UI Screens, implementing functional Logic using HTML, CSS, Javascript/Jquery React JS, Chakra UI and Tailwind CSS.` },
   { id: 3, desc: `Worked with UI team and project managers to develop and present Logical UI Screens.` },
   { id: 4, desc: `Collaborate with designers to implement concept and  design of website.` },
   { id: 5, desc: `Developed User-frendly, Interactive and Responsive Web page Design.` },
@@ -128,10 +123,10 @@ function ExperienceContent() {
                     <OrderedList fontSize={"1.75rem"} fontWeight={500} pt={5}>
                       <ListItem pb="2">
                         In these projects I used HTML, CSS/SCSS,
-                        Javascript/Jquery, Bootstrap.
+                        Javascript/Jquery, Bootstrap, PHP, React JS, Chakra UI, Tailwind, Ant Design & Appgyver.
                       </ListItem>
                       <ListItem pb="2">
-                        I developed UI Screens and functionality.
+                        I developed UI Screens, Landing Pages and functionality.
                       </ListItem>
                     </OrderedList>
                   </Box>
