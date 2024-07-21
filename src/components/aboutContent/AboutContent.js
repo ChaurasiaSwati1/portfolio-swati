@@ -29,6 +29,7 @@ import fire from "../../assets/img/fire.png";
 import tailwind from "../../assets/img/tailwind.png";
 import antd from "../../assets/img/antDesign.svg";
 import painting from "../../assets/img/paint.png";
+import mui from "../../assets/img/materialUI.svg";
 import sketch from "../../assets/img/sketch.png";
 import writing from "../../assets/img/writing.png";
 
@@ -38,51 +39,57 @@ function AboutContent() {
       pic: html,
       url: "https://chaurasiaswati1.github.io/tulsi/",
       heading: "HTML",
-      desc: "Strong organizational skills with having 1.5 years of experience.",
+      desc: "Strong organizational skills with having 2+ years of experience.",
 
     },
     {
       pic: css,
       url: "https://chaurasiaswati1.github.io/tulsi/",
       heading: "CSS",
-      desc: "Strong organizational skills with having 1.5 years of experience.",
+      desc: "Strong organizational skills with having 2+ years of experience.",
 
     },
     {
       pic: js,
       url: "https://chaurasiaswati1.github.io/tulsi/",
       heading: "Javascript",
-      desc: "Skilled in Javascript with having 1.5 years of experience.",
+      desc: "Skilled in Javascript with having 2+ years of experience.",
     },
     {
       pic: jquery,
       url: "https://www.w3schools.com/jquery/",
       heading: "Jquery",
-      desc: "Skilled in Jquery with having 1 year of experience.",
+      desc: "Skilled in Jquery with having 2 year of experience.",
     },
     {
       pic: rjs,
       url: "",
       heading: "React JS",
-      desc: "Skilled in React Js with having 1.5 years of experience.",
+      desc: "Skilled in React Js with having 2 years of experience.",
+    },
+    {
+      pic: mui,
+      url: "https://mui.com/material-ui/",
+      heading: "Material UI",
+      desc: "Skilled in Material UI with having 1 years of experience.",
     },
     {
       pic: chakra,
       url: "https://chakra-ui.com/docs/components",
       heading: "Chakra UI",
-      desc: "Skilled in Chakra UI with having 1.5 year of experience.",
+      desc: "Skilled in Chakra UI with having 2 year of experience.",
     },
     {
       pic: antd,
       url: "https://ant.design",
       heading: "Antd",
-      desc: "Skilled in ant design with having 1.5 year of experience.",
+      desc: "Skilled in ant design with having 2 year of experience.",
     },
     {
       pic: tailwind,
       url: "https://tailwindcss.com",
       heading: "Tailwind CSS",
-      desc: "Skilled in Tailwind CSS with having 1.5 year of experience.",
+      desc: "Skilled in Tailwind CSS with having 2 year of experience.",
     },
     {
       pic: git,

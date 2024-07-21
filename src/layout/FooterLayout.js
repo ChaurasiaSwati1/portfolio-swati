@@ -49,7 +49,7 @@ function FooterLayout() {
   const menuItems = [
 		{
 			// pic: IoMdContact,
-			title: "About",
+			title: "Skills",
 			url: "/skills",
 			active: "skills",
 
