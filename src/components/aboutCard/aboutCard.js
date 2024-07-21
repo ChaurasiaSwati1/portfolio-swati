@@ -1,7 +1,6 @@
 import {
     Container,
-    Flex, Text, Link,
-    ButtonGroup, Button, SimpleGrid, CardBody, Card, Image, Box, Divider, CardFooter
+    Flex, Text, Link, SimpleGrid, CardBody, Card, Image,
 } from "@chakra-ui/react";
 import internship from "../../assets/img/internship.jpg";
 import ui from "../../assets/img/ui.jpg";
@@ -76,9 +75,8 @@ function AboutCard() {
 
                                 />
                                 <Text as={"h4"} mb={"8px"} fontWeight={"600"} fontSize="2rem">Experience</Text>
-                                <Text as={"h6"} fontWeight={"500"} fontSize="1.6rem">In <Link href="https://www.exalogic.co/" target="_blank" color={"#1D4044"}>Exalogic Consulting</Link> I joined as an Intern.
-                                    During my internship, I had the opportunity
-                                    to work on various projects <Link href="/experience" color={"#1D4044"}>more...</Link>.
+                                <Text as={"h6"} fontWeight={"500"} fontSize="1.6rem">
+                                    At <Link href="https://www.mithilait.com/" target="_blank" color={"#1D4044"}>Mithila It</Link> I am learning so may things like api integration, and At ExalogicI learned many languages and work on various projects <Link href="/experience" color={"#1D4044"}>more...</Link>.
                                 </Text>
                             </CardBody>
                         </Card>

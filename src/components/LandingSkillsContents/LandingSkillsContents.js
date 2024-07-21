@@ -19,7 +19,7 @@ function LandingSkillsContents() {
           fontWeight="600"
           fontSize="3.2rem"
         >
-          Associate UI Developer
+          Freelance Web Developer
         </Text>
         <Text
           as="h3"
@@ -28,7 +28,7 @@ function LandingSkillsContents() {
           fontSize="3.2rem"
           mb={"20px"}
         >
-          Frontend Designer
+          Frontend Developer
         </Text>
         <Text
           color={"#918C8C"}

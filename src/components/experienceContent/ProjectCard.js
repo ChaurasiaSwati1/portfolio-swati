@@ -7,8 +7,25 @@ import ict from "../../assets/img/ict.svg";
 import ecadamia from "../../assets/img/ecadamia.png";
 import fgs from "../../assets/img/fgs-logo.webp";
 import exc from "../../assets/img/exa-blue-logo.png";
+import mit from "../../assets/img/mit-logo.png";
 
 const projectCard = [
+    {
+        id: 0, title: "Mithila IT - Worked as Frontend Developer",
+        link: "https://www.mithilait.com/",
+        desc: [
+            { data: "Mithila It is a newly innovative company . In this Project...." },
+            { data: "I worked as a Frontend Developer where I created UI screens and did api integretion which improves the sales by 40%." },
+            { data: "In this project I used..." },
+        ],
+        // skill: "HTML, CSS, Bootstrap",
+        skills: [
+            { name: "React JS" },
+            { name: "Material UI/media queries" },
+            { name: "JavaScript" },
+        ],
+        url: mit,
+    },
     {
         id: 1, title: "Edental Portal - Worked as Frontend Developer",
         link: "https://www.edentalportal.com/",

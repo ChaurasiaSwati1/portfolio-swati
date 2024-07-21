@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Link, Image, Text } from "@chakra-ui/react";
+import { Box, Container, Text } from "@chakra-ui/react";
 import React from "react";
 
 
@@ -18,7 +18,7 @@ function BannerText() {
             <Text fontSize="1.75rem" pb="5"  textAlign={"justify"}>
               Passionate UI Developer with strong organizational skills, ready to
               leverage my expertise in HTML, CSS/SCSS, Bootstrap, React Js, Chakra UI,
-              Tailwind CSS, Git, Figma, Excel, Scripting Languages, Javascript, Jquery
+              Tailwind CSS, Material UI, Ant Design, Git, Figma, Excel, Scripting Languages, Javascript, Jquery
               and other technologies to support teams to achieve their success goals.
             </Text>
             <Text fontSize="1.75rem" pb="5"  textAlign={"justify"}>

@@ -58,7 +58,7 @@ function Projects() {
                                     objectFit="contain"
 
                                 />
-                                <Text as={"h3"} mb={"0"} className="counter"><CountUp delay={"2"} end={"2"} start={"0"}/></Text>
+                                <Text as={"h3"} mb={"0"} className="counter"><CountUp delay={"2"} end={"2"} start={"0"}/>+</Text>
                                 <Text as={"h4"} mb={"8px"} fontWeight={"600"} fontSize="2rem" color={"#ffffff"}>Years Experience</Text>
                                 
                              </Box>

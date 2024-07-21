@@ -38,9 +38,9 @@ function LandingContent() {
           color={"#032747"}
           fontWeight="700"
           className=""
-          fontSize={{base: '3rem', md: '3.4rem', lg: '4.5rem', xl:'6rem'}}
+          fontSize={{base: '3rem', md: '3.4rem', lg: '4.5rem', xl:'5rem'}}
         >
-          Associate UI Developer
+          Freelance Web Developer
         </Text>
 
         <Text
@@ -53,10 +53,10 @@ function LandingContent() {
         >
           <Link
             target="_blank"
-            href="https://www.exalogic.co/"
+            href="https://mithilait.com/"
             cursor={"pointer"}
           >
-            Exalogic Consulting
+            Mithila IT
           </Link>
         </Text>
         <Flex justifyContent="">

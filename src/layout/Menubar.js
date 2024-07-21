@@ -2,9 +2,7 @@ import {
 	Box,
 	Container,
 	Flex,
-	Icon,
 	IconButton,
-	Image,
 	Link,
 	List,
 	ListItem,
@@ -17,12 +15,12 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import rc from "../assets/doc/swati-resume.pdf";
-import { BsBriefcaseFill } from "react-icons/bs";
-import { FaBlogger } from "react-icons/fa";
+// import { BsBriefcaseFill } from "react-icons/bs";
+// import { FaBlogger } from "react-icons/fa";
 import { GiHamburgerMenu, GiNotebook } from "react-icons/gi";
-import { IoMdContact } from "react-icons/io";
+// import { IoMdContact } from "react-icons/io";
 import { useLocation } from "react-router-dom";
-import profile from "../assets/img/profile.jpg";
+// import profile from "../assets/img/profile.jpg";
 
 function MenuBar() {
 
@@ -32,7 +30,7 @@ function MenuBar() {
 	const menuItem = [
 		{
 			// pic: IoMdContact,
-			title: "About",
+			title: "Skills",
 			url: "/skills",
 			active: "skills",
 

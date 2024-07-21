@@ -50,10 +50,10 @@ function Name() {
                   color={"#032747"}
                 >
                   <Text fontSize="10px" fontWeight="600">
-                    Oct 20
+                    March 25
                   </Text>
                   <Text fontSize="10px" fontWeight="600">
-                    2021
+                    2024
                   </Text>
                 </Box>
                 <Box>
@@ -66,7 +66,7 @@ function Name() {
                   width="80px"
                 >
                   <Link
-                    href="https://www.exalogic.co/"
+                    href="https://mithilait.com/"
                     target="_blank"
                     height={"100%"}
                     display={"flex"}
@@ -75,8 +75,8 @@ function Name() {
                     color={"#032747"}
                     _hover={{ textDecoration: 'none' }}
                     justifyContent={"center"}>
-                    <Text fontSize="10px" fontWeight="600">Exalogic</Text>
-                    <Text fontSize="10px" fontWeight="600">Consulting</Text>
+                    <Text fontSize="10px" fontWeight="600">Mithila</Text>
+                    <Text fontSize="10px" fontWeight="600">IT</Text>
                   </Link>
                 </Box>
               </Flex>

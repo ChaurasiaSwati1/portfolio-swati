@@ -13,7 +13,7 @@ function LandingBanner() {
   return (
     <Box width={"100%"} backgroundSize={"cover"} className="land_bg" pb="30px" overflow={"hidden"}>
       <Container maxW="container.xl" py="7" px={12} >
-        <SimpleGrid w="100%" templateColumns={{ base: "1fr", sm: "3fr 2fr", lg: "1fr 1fr" }} alignItems={"center"} spacing={5} h={{ base: "auto", md: "auto" }}>
+        <SimpleGrid w="100%" templateColumns={{ base: "1fr", sm: "3fr 2fr", lg: "3fr 2fr" }} alignItems={"center"} spacing={5} h={{ base: "auto", md: "auto" }}>
           <Box>
             <LandingContent />
           </Box>
