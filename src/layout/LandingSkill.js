@@ -19,9 +19,9 @@ function LandingSkill() {
           </Box>
           <Box h={"100%"} className="skill_s" mr={"2rem"}>
             <h4>Website Development</h4>
-            <p><Icon as={BsFillCheckCircleFill} color={"#1D4044"} fontSize="12px" mr="10px" />HTML/CSS/Bootstrap</p>
             <p><Icon as={BsFillCheckCircleFill} color={"#1D4044"} fontSize="12px" mr="10px" />React JS</p>
             <p><Icon as={BsFillCheckCircleFill} color={"#1D4044"} fontSize="12px" mr="10px" />Chakra UI/Tailwind/Material/Ant Design/Bootstrap</p>
+            <p><Icon as={BsFillCheckCircleFill} color={"#1D4044"} fontSize="12px" mr="10px" />HTML/CSS/Bootstrap</p>
             <p><Icon as={BsFillCheckCircleFill} color={"#1D4044"} fontSize="12px" mr="10px" />Javascript/Jquery</p>
           </Box>
           <Box h={"100%"} className="skill_s" mr={"2rem"}>

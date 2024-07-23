@@ -35,32 +35,7 @@ import writing from "../../assets/img/writing.png";
 
 function AboutContent() {
   const cardItem = [
-    {
-      pic: html,
-      url: "https://chaurasiaswati1.github.io/tulsi/",
-      heading: "HTML",
-      desc: "Strong organizational skills with having 2+ years of experience.",
-
-    },
-    {
-      pic: css,
-      url: "https://chaurasiaswati1.github.io/tulsi/",
-      heading: "CSS",
-      desc: "Strong organizational skills with having 2+ years of experience.",
-
-    },
-    {
-      pic: js,
-      url: "https://chaurasiaswati1.github.io/tulsi/",
-      heading: "Javascript",
-      desc: "Skilled in Javascript with having 2+ years of experience.",
-    },
-    {
-      pic: jquery,
-      url: "https://www.w3schools.com/jquery/",
-      heading: "Jquery",
-      desc: "Skilled in Jquery with having 2 year of experience.",
-    },
+    
     {
       pic: rjs,
       url: "",
@@ -90,6 +65,32 @@ function AboutContent() {
       url: "https://tailwindcss.com",
       heading: "Tailwind CSS",
       desc: "Skilled in Tailwind CSS with having 2 year of experience.",
+    },
+    {
+      pic: html,
+      url: "https://chaurasiaswati1.github.io/tulsi/",
+      heading: "HTML",
+      desc: "Strong organizational skills with having 2+ years of experience.",
+
+    },
+    {
+      pic: css,
+      url: "https://chaurasiaswati1.github.io/tulsi/",
+      heading: "CSS",
+      desc: "Strong organizational skills with having 2+ years of experience.",
+
+    },
+    {
+      pic: js,
+      url: "https://chaurasiaswati1.github.io/tulsi/",
+      heading: "Javascript",
+      desc: "Skilled in Javascript with having 2+ years of experience.",
+    },
+    {
+      pic: jquery,
+      url: "https://www.w3schools.com/jquery/",
+      heading: "Jquery",
+      desc: "Skilled in Jquery with having 2 year of experience.",
     },
     {
       pic: git,

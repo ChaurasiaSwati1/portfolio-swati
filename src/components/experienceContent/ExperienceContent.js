@@ -42,7 +42,7 @@ import {
   const experience = [
   { 
   id: 0, 
-  expTitle: "Experience at Mithila IT", 
+  expTitle: "Experience at Mithila IT (20 march 2024 to Present)", 
   position: "Freelance Web Developer", 
   list: [
   { 
@@ -66,7 +66,7 @@ import {
   },
   { 
   id: 1, 
-  expTitle: "Experience at Exalogic", 
+  expTitle: "Experience at Exalogic (20 oct 2021 to 20 march 2024)", 
   position: "Frontend Developer", 
   list: [
   { 
